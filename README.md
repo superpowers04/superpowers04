@@ -1,16 +1,21 @@
-### Hi there 👋
+TL;DR: I am funni transfem(She/Her) who likes coding, drawing, and video games
 
-<!--
-**superpowers04/superpowers04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
 
-Here are some ideas to get you started:
+# The links to the funny extras
+- [Pronouns.page](https://en.pronouns.page/@superpowers04)
+- [Github](https://github.com/superpowers04)
+- [Discord](https://discordapp.com/users/267737465152864256)(Superpowers04#3887)
+# Current Projects
+* [Super Engine](https://github.com/superpowers04/Super-Engine) - A overhaul of Kade Engine 0.4.2 that adds things like a chart menu, script support, custom characters and supposed to be a one-time install so you don't have 20 copies of the game on your harddrive
+# Main Hyperfixations
+Friday Night Funkin'
+Minecraft
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Some random info
+- I am not looking for a partner at the moment
+- Purple is pog
+- I code in lua and haxe
+- women
+- women
+- women
