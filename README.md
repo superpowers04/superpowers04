@@ -1,6 +1,8 @@
-TL;DR: I am funni transfem(She/Her) who likes coding, drawing, and video games
+TL;DR: I am funni transfem/translesbian who likes coding, drawing, and video games
+* She/her
 
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
+If I say something that bothers you, feel free to lemmie know :>
 
 # The links to the funny extras
 - [Pronouns.page](https://en.pronouns.page/@superpowers04)
