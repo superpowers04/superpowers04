@@ -11,8 +11,8 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 # Current Projects
 * [Super Engine](https://github.com/superpowers04/Super-Engine) - A overhaul of Kade Engine 0.4.2 that adds things like a chart menu, script support, custom characters and supposed to be a one-time install so you don't have 20 copies of the game on your harddrive
 # Main Hyperfixations
-Friday Night Funkin'
-Minecraft
+* Friday Night Funkin'
+* Minecraft
 
 # Some random info
 - I am not looking for a partner at the moment
