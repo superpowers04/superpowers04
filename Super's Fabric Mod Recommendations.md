@@ -2,11 +2,16 @@
 (Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
-# Recommended to **avoid**
+# My recommendations to **avoid**
 * Feather Client -- Steals mods, suspicious behavior
-* Lunar Client -- Suspicious behavior
+* Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to)
+  * I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
 * TLauncher -- Piracy, Installs suspicious certificates onto your computer, steals mods, Stole the name and some other drama with TL Legacy/Legacy Launcher
 * Curse Forge/Curse Forge Launcher -- Curse forge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth
+* Optifine -- Has violated Minecraft's EULA several times in the past, closed source, can cause a lot of issues. Sodium provides far better performance and you can find alternatives with more features
+
+
+* Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for cosmetic alternative and refer to e4mc below for hosting alternative)
 
 # Required
 ### [Fabric](https://fabricmc.net/use/installer/)
@@ -37,7 +42,9 @@
 * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
   
 # Random stuff
-* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org)
+* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod 
+* [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
+* [] 
 
 
 # Some helpful resources
