@@ -1,10 +1,11 @@
 # Super's Fabric/Quilt mod suggestion list
 (Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
+**Using [Prism](https://prismlauncher.org) is recommended**
 # Required
-### Fabric
+### [Fabric](https://fabricmc.net/use/installer/)
 * [Fabric API](https://modrinth.com/mod/fabric-api) -- Fabric API, Required for most Fabric mods
 * [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) -- Allows mods to use Kotlin with Fabric, several mods need this
-### Quilt
+### [Quilt](https://quiltmc.org/en/)
 * [Quilted Fabric API/Quilt Standard Libraries](https://modrinth.com/mod/qsl) -- Quilt API. Includes a Fabric API compatibility layer for Fabric mods 
 * [Quilt Kotlin Libraries](https://modrinth.com/mod/qkl) -- Allows mods to use Kotlin with Quilt, several mods need this
   
