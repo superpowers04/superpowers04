@@ -1,6 +1,13 @@
 # Super's Fabric/Quilt mod suggestion list
 (Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
-**Using [Prism](https://prismlauncher.org) is recommended**
+
+**Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
+# Recommended to **avoid**
+* Feather Client -- Steals mods, suspicious behavior
+* Lunar Client -- Suspicious behavior
+* TLauncher -- Piracy, Installs suspicious certificates onto your computer, steals mods, Stole the name and some other drama with TL Legacy/Legacy Launcher
+* Curse Forge/Curse Forge Launcher -- Curse forge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth
+
 # Required
 ### [Fabric](https://fabricmc.net/use/installer/)
 * [Fabric API](https://modrinth.com/mod/fabric-api) -- Fabric API, Required for most Fabric mods
@@ -31,3 +38,7 @@
   
 # Random stuff
 * [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org)
+
+
+# Some helpful resources
+* [Optifine Alternatives by LambdAurora](https://github.com/LambdAurora/optifine_alternatives)
