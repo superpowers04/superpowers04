@@ -11,7 +11,7 @@
 * Optifine -- Has violated Minecraft's EULA several times in the past, closed source, can cause a lot of issues. Sodium provides far better performance and you can find alternatives with more features
 
 
-* Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for cosmetic alternative and refer to e4mc below for hosting alternative)
+* Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
 
 # Required
 ### [Fabric](https://fabricmc.net/use/installer/)
