@@ -1,8 +1,13 @@
-# Super's Fabric/Quilt mod suggestion list
+# Super's Minecraft recommendation list thing
 (Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
+Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric, Quilt or anyone else. 
+
+This is just a funni list of recommendations
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
-# My recommendations to **avoid**
+# Recommendations on stuff to **avoid**
+* Hamachi -- Conflicts with the internet, and can cause issues with authentication(See E4MC for alternative)
+* MCLeaks/TheAltening -- Stolen/Illegal account generator. Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
 * Feather Client -- Steals mods, suspicious behavior
 * Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to)
   * I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
