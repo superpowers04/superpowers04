@@ -2,9 +2,9 @@ TL;DR: I am funni 18 year old transfem/translesbian/transbean who likes coding, 
 * She/her
 
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
-<br>* If I say something that bothers you, Please let me know :>
-<br><br>* Note that some of the things I say are NSFW(Mostly just sexual NSFW). I can avoid saying NSFW stuff in more professional settings(Minecraft Community Support for example), when talking to minors or if asked though. 
-<br>**If talking about NSFW stuff bothers you, or you're underaged, Please tell me.**      
+* If I say something that bothers you, Please let me know :>
+* Note that some of the things I say are NSFW(Mostly just sexual NSFW). I can avoid saying NSFW stuff in more professional settings(Minecraft Community Support for example), when talking to minors or if asked though. 
+* **If talking about NSFW stuff bothers you, or you're underaged, Please tell me.**      
 
 # The links to the funny extras
 - [Pronouns.page](https://en.pronouns.page/@superpowers04)
