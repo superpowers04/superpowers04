@@ -20,9 +20,11 @@ This is just a funni list of recommendations
 
 # Required
 ### [Fabric](https://fabricmc.net/use/installer/)
+Mods for Fabric. Note if you're using Fabric, you should not use mods from the Quilt section
 * [Fabric API](https://modrinth.com/mod/fabric-api) -- Fabric API, Required for most Fabric mods
 * [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) -- Allows mods to use Kotlin with Fabric, several mods need this
 ### [Quilt](https://quiltmc.org/en/)
+Mods for Quilt. Note if you're using Quilt, you should not use mods from the Fabric section
 * [Quilted Fabric API/Quilt Standard Libraries](https://modrinth.com/mod/qsl) -- Quilt API. Includes a Fabric API compatibility layer for Fabric mods 
 * [Quilt Kotlin Libraries](https://modrinth.com/mod/qkl) -- Allows mods to use Kotlin with Quilt, several mods need this
   
@@ -31,13 +33,24 @@ This is just a funni list of recommendations
 * [Cloth Config API](https://modrinth.com/mod/cloth-config) -- Some mods use this for providing their config
 * [Yet Another Config Library(YACL)](https://modrinth.com/mod/yacl) -- Some mods use this for providing their config
 
-# Performance Stuff
+# Base Performance Mods
+Mods that help with performance. I'd recommend having all of these
 * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
 * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
 * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
 * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options) -- Allows you to access said options
 * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
-* [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support
+* [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
+* [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
+
+# Extra Performance Stuff
+Mods that can help with performance but might have incompatibilities or whatever. These are mostly optional 
+* [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this
+* [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with a lot of mods since it does a lot for rendering
+* [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff
+* [Dash Loader](https://modrinth.com/mod/dashloader) -- Makes the game load really really fast. However some mods are incompatible with this
+* [Distant Horizons](https://modrinth.com/mod/distanthorizons) -- Allows you to see far past your render distance without causing lag. However this mod only works with some setups and is very very buggy 
+
 
 # Optifine features
 * [Animatica](https://modrinth.com/mod/animatica) -- Support for Optifine/MCPatcher's animated textures
