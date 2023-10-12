@@ -53,6 +53,7 @@ Mods that can help with performance but might have incompatibilities or whatever
 
 
 # Optifine features
+Optifine features ported over to Sodium
 * [Animatica](https://modrinth.com/mod/animatica) -- Support for Optifine/MCPatcher's animated textures
 * [Entity Texture Features (ETF)](https://modrinth.com/mod/entity-model-features) -- Support for random textures on entities, and some other things
 * [Entity Model Features (EMF)](https://modrinth.com/mod/entity-model-features) -- Support for Optifine Custom Entity models(Requires ETF)
@@ -60,9 +61,9 @@ Mods that can help with performance but might have incompatibilities or whatever
 * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
   
 # Random stuff
+Random mods I thought I'd mention because I like them ig
 * [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod 
 * [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
-* [] 
 
 
 # Some helpful resources
