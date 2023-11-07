@@ -55,12 +55,14 @@ Mods that can help with performance but might have incompatibilities or whatever
 
 
 # Optifine features
-Optifine features ported over to Sodium
+Optifine features ported over to Sodium and Iris
+* [Puzzle](https://modrinth.com/mod/puzzle) -- A mod that adds some optifine features, an API and some other things
 * [Animatica](https://modrinth.com/mod/animatica) -- Support for Optifine/MCPatcher's animated textures
 * [Entity Texture Features (ETF)](https://modrinth.com/mod/entity-model-features) -- Support for random textures on entities, and some other things
 * [Entity Model Features (EMF)](https://modrinth.com/mod/entity-model-features) -- Support for Optifine Custom Entity models(Requires ETF)
 * [CIT Resewn](https://modrinth.com/mod/cit-resewn) -- MCPatcher/Optifine CIT features(Basically the custom textures depending on item nbt instead of just id)
 * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
+* [Lamb Dynamic Lights](https://curseforge.com/minecraft/mc-mods/lambdynamiclights) -- What is says on the tin, dynamic lighting
   
 # Random stuff
 Random mods I thought I'd mention because I like them ig
