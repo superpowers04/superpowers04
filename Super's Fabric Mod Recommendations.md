@@ -22,16 +22,17 @@ I'd only recommend using CurseForge for older versions of the game or if you hav
 * Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
 
 # Required
-### [Fabric](https://fabricmc.net/use/installer/)
+### [Fabric Loader Only](https://fabricmc.net/use/installer/)
 Mods for Fabric. Note if you're using Fabric, you should not use mods from the Quilt section
 * [Fabric API](https://modrinth.com/mod/fabric-api) -- Fabric API, Required for most Fabric mods
 * [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) -- Allows mods to use Kotlin with Fabric, several mods need this
-### [Quilt](https://quiltmc.org/en/)
+### [Quilt Loader Only](https://quiltmc.org/en/)
 Mods for Quilt. Note if you're using Quilt, you should not use mods from the Fabric section
 * [Quilted Fabric API/Quilt Standard Libraries](https://modrinth.com/mod/qsl) -- Quilt API. Includes a Fabric API compatibility layer for Fabric mods 
 * [Quilt Kotlin Libraries](https://modrinth.com/mod/qkl) -- Allows mods to use Kotlin with Quilt, several mods need this
   
-### Mixed
+### Quilt and Fabric
+Mods that work on both Quilt and Fabric and are required in most cases
 * [Mod Menu](https://modrinth.com/mod/modmenu) -- Adds an ingame modlist allowing you to edit configs and such
 * [Cloth Config API](https://modrinth.com/mod/cloth-config) -- Some mods use this for providing their config
 * [Yet Another Config Library(YACL)](https://modrinth.com/mod/yacl) -- Some mods use this for providing their config
