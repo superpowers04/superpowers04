@@ -16,7 +16,7 @@ This is just a funni list of recommendations and I really recommend you do resea
 * TLauncher -- Piracy, Installs suspicious certificates onto your computer, steals mods, Stole the name and some other drama with TL Legacy/Legacy Launcher
 * Curse Forge/Curse Forge Launcher -- Curse forge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth. 
 I'd only recommend using CurseForge for older versions of the game or if you have to. And if you do, I'd recommend downloading the jar for the mod directly or using Prism
-* Optifine -- Has violated Minecraft's EULA several times in the past, closed source, can cause a lot of issues. Sodium provides far better performance and you can find alternatives with more features
+* Optifine -- Has violated Minecraft's EULA several times in the past. closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod used to be essential for your mod list. can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features
 
 
 * Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
