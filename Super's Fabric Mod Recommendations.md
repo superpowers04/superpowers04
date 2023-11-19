@@ -1,8 +1,8 @@
 # Super's Minecraft recommendation list thing
 (Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
-Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric, Quilt or anyone else. 
+***Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric, Quilt or anyone else.***
 
-This is just a funni list of recommendations and I really recommend you do research yourself before installing anything listed here. **Please do not ever blindly follow anything you see online**
+This is just a funni list of recommendations from me and I really recommend you do research yourself before installing anything listed here. **Please do not ever blindly follow anything you see online**
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Recommendations on stuff to **avoid**
@@ -14,12 +14,17 @@ This is just a funni list of recommendations and I really recommend you do resea
 * Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to)
   * I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
 * TLauncher -- Piracy, Installs suspicious certificates onto your computer, steals mods, Stole the name and some other drama with TL Legacy/Legacy Launcher
-* Curse Forge/Curse Forge Launcher -- Curse forge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth. 
+* Curse Forge/Curse Forge Launcher -- Curse forge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways.
 I'd only recommend using CurseForge for older versions of the game or if you have to. And if you do, I'd recommend downloading the jar for the mod directly or using Prism
 * Optifine -- Has violated Minecraft's EULA several times in the past. closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod used to be essential for your mod list. can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features
-
-
 * Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
+
+# Some general recommendations
+* [Fabric](https://fabricmc.net/) -- While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
+* [Quilt](https://quiltmc.org/en/) -- Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
+* [Modrinth](https://modrinth.com/) -- A replacement for Curseforge, Pretty much all of the mods on this list come from here. It's open source, isn't owned by a cringe corperation, doesn't try to shove it's launcher down your throat and has no 3 second wait for a download 
+* [Prism Launcher](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
+* [MultiMC](https://multimc.org) -- An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly re
 
 # Required
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
@@ -66,7 +71,7 @@ Optifine features ported over to Sodium and Iris
 * [Entity Model Features (EMF)](https://modrinth.com/mod/entity-model-features) -- Support for Optifine Custom Entity models(Requires ETF)
 * [CIT Resewn](https://modrinth.com/mod/cit-resewn) -- MCPatcher/Optifine CIT features(Basically the custom textures depending on item nbt instead of just id)
 * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
-* [Lamb Dynamic Lights](https://curseforge.com/minecraft/mc-mods/lambdynamiclights) -- What is says on the tin, dynamic lighting
+* [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) -- What is says on the tin, dynamic lighting
   
 # Random stuff
 Random mods I thought I'd mention because I like them ig
