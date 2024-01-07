@@ -9,6 +9,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 * Hamachi -- Conflicts with the internet, and can cause issues with authentication(See E4MC for alternative)
 * MCLeaks/TheAltening -- Stolen/Illegal account generator. Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
 * Any client or mod providing paid goodies -- Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```. This includes Optifine, Essential, Badlion and Lunar from what I know
+* Most "clients" -- Most clients are closed source. This alone is a red flag. These clients directly modify the game's code and could be doing literally anything to your computer.
 * Badlion Client -- Last time I checked, their privacy policy was supsicious. As of writing this, I am actually unable to load the Privacy Policy page so I could be wrong.
 * Feather Client -- Steals mods, suspicious behavior
 * Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to)
