@@ -60,6 +60,7 @@ Mods that can help with performance but might have incompatibilities or whatever
 * [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with a lot of mods since it does a lot for rendering
 * [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff
 * [Dash Loader](https://modrinth.com/mod/dashloader) -- Makes the game load really really fast. However some mods are incompatible with this
+* [Noisium](https://modrinth.com/mod/noisium) -- Optimises world generation
 * [Distant Horizons](https://modrinth.com/mod/distanthorizons) -- Allows you to see far past your render distance without causing lag. However this mod only works with some setups and is very very buggy
 * [Bobby](https://modrinth.com/mod/bobby) -- Allows for render distances greater than the server's view-distance setting by caching chunks and using the cache. In some ways, this could theroetically help with network issues
 * [Raknetify](https://modrinth.com/plugin/raknetify) -- A mod that allows you to join servers with the mod via raknet. This can supposedly help with network instability but I've never tried it
