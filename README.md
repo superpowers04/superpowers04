@@ -1,3 +1,4 @@
+[Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)
 TL;DR: I am funni 18 year old transfem/translesbian/transbean who likes coding, drawing, and video games
 * She/her
 
