@@ -7,11 +7,12 @@ This is just a funni list of recommendations from me and I really recommend you 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Recommendations on what to **avoid** using and why
 * Most minecraft mod downloading sites -- A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive github and whatever official pages a mod has for downloading from. If the mod wasn't released recently then Curseforge might also be a viable option but read the section on curseforge for why I'd advise against this whenever you can  
-* Hamachi -- Conflicts with the internet, and can cause issues with authentication(See E4MC for alternative)
+* Hamachi -- Conflicts with the internet, and can cause issues with authentication(See E4MC or [playit.gg](https://playit.gg) for alternative)
 * MCLeaks/TheAltening -- Stolen/Illegal account generator. Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
-* Any client or mod providing paid goodies -- Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```. This includes Optifine, Essential, Badlion, Feather and Lunar from what I know
+* Any client or mod providing paid goodies -- Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```. This includes Optifine, Essential, Badlion, Feather and Lunar from what I know. 
+  * Refer to Figura below for *free* cosmetic alternatives
 * Most "clients" -- Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox. Not to mention some clients require administator or superuser access, the vanilla game and mods should *never* require administrator access.
- * Usually these clients also have some invasive privacy policies. 
+  * Usually these clients also have some invasive privacy policies. 
 * Badlion Client -- At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
 * Feather Client -- Steals mods/has stolen mods in the past, suspicious behavior, Refer to `Most "clients"`
 * Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to), Refer to `Most "clients"`
@@ -21,7 +22,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 * curseforge/curseforge Launcher -- Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive
 I'd only recommend using CurseForge for older versions of the game or if you have to. And if you do, I'd recommend downloading the jar for the mod directly or using Prism
 * Optifine(On 1.14 and above\*) -- Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list. Can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features.
- * Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
+  * Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
 * Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
 
 # Some general recommendations
@@ -50,19 +51,25 @@ Mods that work on both Quilt and Fabric and are required in most cases
 * [Yet Another Config Library(YACL)](https://modrinth.com/mod/yacl) -- Some mods use this for providing their config
 
 # Base Performance Mods
-Mods that help with performance. I'd recommend having all of these
-* [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
-* [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
-* [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
-* [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options) -- Allows you to access said options
-* [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
-* [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
-* [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
+Mods that help with performance. I'd recommend having all of these. This is the only section I'll provide forge Alternatives for since I don't really use forge. Sorry
+* Fabric/Quilt
+  * [Sodium](https://modrinth.com/mod/sodium)/[Embeddium](https://modrinth.com/mod/embeddium) -- Optimises Clientside stuff(i.e more fps)
+  * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
+  * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options
+  * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
+  * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
+  * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
+  * [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
+* Forge
+  * [Embeddium](https://modrinth.com/mod/embeddium) -- Sodium on Forge
+  * [Embeddium Extras](https://modrinth.com/mod/rubidium-extra) -- Sodium Extras on Forge
+  * [Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options
+
 
 # Extra Performance Stuff
 Mods that can help with performance but might have incompatibilities or whatever. These are mostly optional 
+* [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with some mods since it does a lot for rendering. Although I haven't seen any mods have incompatibilities with this mod
 * [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this
-* [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with a lot of mods since it does a lot for rendering
 * [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff
 * [Dash Loader](https://modrinth.com/mod/dashloader) -- Makes the game load really really fast. However some mods are incompatible with this
 * [Noisium](https://modrinth.com/mod/noisium) -- Optimises world generation
@@ -82,8 +89,9 @@ Optifine features ported over to Sodium and Iris
 * [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) -- What is says on the tin, dynamic lighting
   
 # Random stuff
-Random mods I thought I'd mention because I like them ig
-* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod 
+Random mods I thought I'd mention because I like using them and think they're cool.<br>
+Some of these mods also provide alternatives to the `Recommendations on what to **avoid** using and why` section
+* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod.
 * [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
 * [Custom Lan](https://modrinth.com/mod/custom-lan) -- A mod that adds a bunch of options for hosting a world. It supports tunnelling (Note I haven't tested this mod myself)
 * [LAN World Plug-n-Play](https://modrinth.com/mod/mcwifipnp) -- A mod that automatically port-forwards your lan world using UPnP (Note I haven't tested this mod myself)
