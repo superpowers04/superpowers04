@@ -53,7 +53,8 @@ Mods that work on both Quilt and Fabric and are required in most cases
 # Base Performance Mods
 Mods that help with performance. I'd recommend having all of these. This is the only section I'll provide forge Alternatives for since I don't really use forge. Sorry
 * Fabric/Quilt
-  * [Sodium](https://modrinth.com/mod/sodium)/[Embeddium](https://modrinth.com/mod/embeddium) -- Optimises Clientside stuff(i.e more fps)
+  * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
+    * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has some Fabric builds. It *could* be faster than sodium but I haven't really tested
   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
   * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options
   * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
