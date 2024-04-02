@@ -82,7 +82,7 @@ Random mods I thought I'd mention because I like them ig
 * [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
 * [Custom Lan](https://modrinth.com/mod/custom-lan) -- A mod that adds a bunch of options for hosting a world. It supports tunnelling (Note I haven't tested this mod myself)
 * [LAN World Plug-n-Play](https://modrinth.com/mod/mcwifipnp) -- A mod that automatically port-forwards your lan world using UPnP (Note I haven't tested this mod myself)
-* [ViaFabric](https://modrinth.com/mod/viafabric)/[ViaFabricPlus](https://modrinth.com/mod/viafabricplus) -- A mod that allows you to join servers of different versions. Note that this does alot of packet manipulation and can be seen as cheating or trigger anticheats on some servers like Hypixel.
+* [ViaFabric](https://modrinth.com/mod/viafabric)/[ViaFabricPlus](https://modrinth.com/mod/viafabricplus) -- A mod that allows you to join servers of different versions. Note that this does alot of packet manipulation and can be seen as cheating or trigger anticheats on some servers like Hypixel. ViaFabric has less support than ViaFabricPlus but is more stable and updates faster in my experience
 
 
 # Some helpful resources
