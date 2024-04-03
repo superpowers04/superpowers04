@@ -6,33 +6,69 @@ This is just a funni list of recommendations from me and I really recommend you 
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Recommendations on what to **avoid** using and why
-* Most minecraft mod downloading sites -- A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive github and whatever official pages a mod has for downloading from. If the mod wasn't released recently then Curseforge might also be a viable option but read the section on curseforge for why I'd advise against this whenever you can  
-* Hamachi -- Conflicts with the internet, and can cause issues with authentication(See E4MC or [playit.gg](https://playit.gg) for alternative)
-* MCLeaks/TheAltening -- Stolen/Illegal account generator. Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
-* Any client or mod providing paid goodies -- Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```. This includes Optifine, Essential, Badlion, Feather and Lunar from what I know. 
-  * Refer to Figura below for *free* cosmetic alternatives
-* Most "clients" -- Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox. Not to mention some clients require administator or superuser access, the vanilla game and mods should *never* require administrator access.
-  * Usually these clients also have some invasive privacy policies. 
-* Badlion Client -- At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
-* Feather Client -- Steals mods/has stolen mods in the past, suspicious behavior, Refer to `Most "clients"`
-* Lunar Client -- Suspicious behavior(Obfuscates logs or atleast used to), Refer to `Most "clients"`
-  * I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
-  * [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using 
-* TLauncher -- Piracy, Installs suspicious certificates onto your computer, steals mods, Stole the name and some other drama with TL Legacy/TL Legacy Launcher
-* curseforge/curseforge Launcher -- Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive
-I'd only recommend using CurseForge for older versions of the game or if you have to. And if you do, I'd recommend downloading the jar for the mod directly or using Prism
-* Optifine(On 1.14 and above\*) -- Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list. Can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features.
-  * Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
-* Essential -- Honestly, I just don't like it. It adds expensive cosmetics and such(Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative)
+* Most minecraft mod downloading sites
+	* A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive github and whatever official pages a mod has for downloading from. 
+	* If the mod wasn't released recently then Curseforge might also be a viable option but read the section on curseforge for why I'd advise against this whenever you can  
+* Hamachi 
+	* Conflicts with the internet, and can cause issues with authentication
+	* See E4MC or [playit.gg](https://playit.gg) for alternatives
+* MCLeaks/TheAltening 
+	* Stolen/Illegal account generator. 
+	* \* Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
+* Any client or mod providing paid goodies 
+	* Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```.
+	* This includes Optifine, Essential, Badlion, Feather and Lunar from what I know.
+	* \* Refer to Figura below for *free* cosmetic alternatives
+* Most "clients"
+	* Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. 
+	* These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox. 
+	* Some clients require administator or superuser access, the vanilla game and mods should *never* require administrator access.
+	* Usually these clients also have some invasive privacy policies. 
+* Badlion Client 
+	* At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
+* Feather Client 
+	* Steals mods/has stolen mods in the past
+	* Suspicious behavior
+	* \* Refer to `Most "clients"`
+* Lunar Client 
+	* Suspicious behavior(Obfuscates logs or atleast used to)
+	* I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
+	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using 
+	* \* Refer to `Most "clients"`
+* TLauncher 
+	* Piracy
+	* Steals mods
+	* Installs suspicious certificates onto your computer
+	* Stole the name and some other drama with TL Legacy/TL Legacy Launcher
+	* Refer to `Any client or mod providing paid goodies`
+	* \* Modrinth and Prism launcher are good alternatives
+* curseforge/curseforge Launcher
+	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
+	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
+	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
+* Optifine(On 1.14 and above\*)
+	* Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list. Can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features.
+	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
+* Essential 
+	* Honestly, I just don't like it.
+	* It adds expensive cosmetics and such
+	* \* Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative
 
 # Some general recommendations
-* [Modrinth](https://modrinth.com/) -- A replacement for Curseforge, Pretty much all of the mods on this list come from here. It's open source, isn't owned by a cringe corporation, doesn't try to shove it's launcher down your throat and has no 3 second wait for a download.
-* [Fabric](https://fabricmc.net/) -- While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
-* [Quilt](https://quiltmc.org/en/) -- Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
-* [Prism Launcher](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
-* [MultiMC](https://multimc.org) -- An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly replaces MultiMC though
-* [MCArchive](https://mcarchive.net) -- A archive of older Minecraft mods, it's open source and maintained by the community. It gives links to the original download if it's still available, links to the author and doesn't have any ads
-* [Stop Mod Reposts](https://stopmodreposts.org) -- While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
+* [Modrinth](https://modrinth.com/) 
+	* A replacement for Curseforge, Pretty much all of the mods on this list come from here. It's open source, isn't owned by a cringe corporation, doesn't try to shove it's launcher down your throat and has no 3 second wait for a download.
+* [Fabric](https://fabricmc.net/) 
+	* While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
+* [Quilt](https://quiltmc.org/en/) 
+	* Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
+* [Prism Launcher](https://prismlauncher.org) 
+	* An fork/drop-in replacement of MultiMC that allows downloading mods within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
+* [MultiMC](https://multimc.org) 
+	* An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly replaces MultiMC though
+* [MCArchive](https://mcarchive.net) 
+	* A archive of older Minecraft mods, it's open source and maintained by the community. It gives links to the original download if it's still available, links to the author and doesn't have any ads
+* [Stop Mod Reposts](https://stopmodreposts.org) 
+	* While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
 
 # Required
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
@@ -92,7 +128,7 @@ Optifine features ported over to Sodium and Iris
 # Random stuff
 Random mods I thought I'd mention because I like using them and think they're cool.<br>
 Some of these mods also provide alternatives to the `Recommendations on what to **avoid** using and why` section
-* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod.
+* [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [blockbench](https://blockbench.net/) player models that can be scripted with [lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod.(Note: I do have a bias for Figura since I've personally made a few commits to the repo and have a fork of it. However I hope that doesn't detract from me recommending it)
 * [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
 * [Custom Lan](https://modrinth.com/mod/custom-lan) -- A mod that adds a bunch of options for hosting a world. It supports tunnelling (Note I haven't tested this mod myself)
 * [LAN World Plug-n-Play](https://modrinth.com/mod/mcwifipnp) -- A mod that automatically port-forwards your lan world using UPnP (Note I haven't tested this mod myself)
