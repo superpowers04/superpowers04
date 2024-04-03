@@ -18,12 +18,14 @@ This is just a funni list of recommendations from me and I really recommend you 
 * Any client or mod providing paid goodies 
 	* Things like paid cosmetics are actually against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```.
 	* This includes Optifine, Essential, Badlion, Feather and Lunar from what I know.
+	* I'm honestly not sure why these mods aren't taken down. My assumption is either too much of a PR disaster with some of these, or not worth it. Interestingly, Mojang actually did send a cease and desist to [Physics mod](https://minecraftphysicsmod.com) for having a patreon paid version so I'm not completely sure
 	* \* Refer to Figura below for *free* cosmetic alternatives
 * Most "clients"
 	* Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. 
 	* These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox. 
 	* Some clients require administator or superuser access, the vanilla game and mods should *never* require administrator access.
 	* Usually these clients also have some invasive privacy policies. 
+	* Usually these clients contain paid goodies, refer to the above section for why that's bad
 * Badlion Client 
 	* At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
 * Feather Client 
