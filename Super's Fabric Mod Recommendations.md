@@ -49,7 +49,9 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
 	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
 * Optifine(On 1.14 and above\*)
-	* Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list. Can cause a lot of issues due to how it changes rendering. Sodium provides far better performance and you can find alternatives with more features.
+	* Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list.
+	* Can cause a lot of issues due to how it changes rendering.
+ 	* Sodium/Embeddium provides far better performance and you can find alternatives with more features.
 	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
 * Essential 
 	* Honestly, I just don't like it.
