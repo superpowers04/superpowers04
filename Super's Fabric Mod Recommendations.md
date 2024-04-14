@@ -63,6 +63,8 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
 * [Quilt](https://quiltmc.org/en/) 
 	* Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
+* [Neoforge](https://neoforged.net)
+  	* Neoforge is a fork of forge that is better than forge in performance. With [Sinytra](https://modrinth.com/mod/connector), you can add support for a good portion of fabric-only mods. Note that Sinytra needs a bit of messing around with to work properly
 * [Prism Launcher](https://prismlauncher.org) 
 	* An fork/drop-in replacement of MultiMC that allows downloading mods within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
 * [MultiMC](https://multimc.org) 
@@ -90,19 +92,22 @@ Mods that work on both Quilt and Fabric and are required in most cases
 
 # Base Performance Mods
 Mods that help with performance. I'd recommend having all of these. This is the only section I'll provide forge Alternatives for since I don't really use forge. Sorry
+* All loaders(Fabric, Quilt, Neoforge and Forge)
+  * [Modern Fix](https://modrinth.com/mod/modernfix) -- Applies a bunch of client-sided fixes and helps with performance
+  * [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
+  * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
 * Fabric/Quilt
   * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
     * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has some Fabric builds. It *could* be faster than sodium but I haven't really tested
   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
   * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options
   * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
-  * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
   * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
-  * [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
-* Forge
+* Neoforge/Forge
   * [Embeddium](https://modrinth.com/mod/embeddium) -- Sodium on Forge
   * [Embeddium Extras](https://modrinth.com/mod/rubidium-extra) -- Sodium Extras on Forge
   * [Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options
+
 
 
 # Extra Performance Stuff
