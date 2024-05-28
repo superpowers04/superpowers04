@@ -102,13 +102,13 @@ Mods that help with performance. I'd recommend having all of these. This is the 
   * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
     * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has some Fabric builds. It *could* be faster than sodium but I haven't really tested
   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
-  * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options
+  * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options, Only required for Sodium as Embeddium integrates this mod already
   * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
   * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
 * Neoforge/Forge
   * [Embeddium](https://modrinth.com/mod/embeddium) -- Sodium on Forge
   * [Embeddium Extras](https://modrinth.com/mod/rubidium-extra) -- Sodium Extras on Forge
-  * [Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options
+  * ~~[Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options~~ - This is now included in embeddium
 
 
 
