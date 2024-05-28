@@ -104,6 +104,7 @@ Mods that help with performance. I'd recommend having all of these. This is the 
   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
   * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options, Only required for Sodium as Embeddium integrates this mod already
   * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
+  * [Indium](https://modrinth.com/mod/indium) -- A mod for sodium that mostly just adds better compatibility, Built into Embeddium
   * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
 * Neoforge/Forge
   * [Embeddium](https://modrinth.com/mod/embeddium) -- Sodium on Forge
@@ -133,6 +134,7 @@ Optifine features ported over to Sodium and Iris
 * [CIT Resewn](https://modrinth.com/mod/cit-resewn) -- MCPatcher/Optifine CIT features(Basically the custom textures depending on item nbt instead of just id)
 * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
 * [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) -- What is says on the tin, dynamic lighting
+* [Continuity](https://modrinth.com/mod/continuity) -- Connected Textures
   
 # Random stuff
 Random mods I thought I'd mention because I like using them and think they're cool.<br>
