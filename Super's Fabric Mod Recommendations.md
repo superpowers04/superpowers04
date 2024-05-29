@@ -7,7 +7,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Recommendations on what to **avoid** using and why
 * Most minecraft mod downloading sites
-	* A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive github and whatever official pages a mod has for downloading from. 
+	* A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive, github and whatever official pages a mod has for downloading from. 
 	* If the mod wasn't released recently then Curseforge might also be a viable option but read the section on curseforge for why I'd advise against this whenever you can  
 * Hamachi 
 	* Conflicts with the internet, and can cause issues with authentication
@@ -54,9 +54,10 @@ This is just a funni list of recommendations from me and I really recommend you 
  	* Sodium/Embeddium provides far better performance and you can find alternatives with more features.
 	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect optifine and I haven't really seen any alternatives.
 * Essential 
-	* Honestly, I just don't like it.
+	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
+	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
 	* It adds expensive cosmetics and such
-	* \* Refer to Figura below for *free* cosmetic alternative and refer to e4mc below for hosting alternative
+	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
 
 # Some general recommendations
 * [Modrinth](https://modrinth.com/) 
