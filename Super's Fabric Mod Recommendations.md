@@ -24,7 +24,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. 
 	* These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox. 
 	* Some clients require administator or superuser access, the vanilla game and mods should *never* require administrator access.
-	* Usually these clients also have some invasive privacy policies. 
+	* Usually these clients have some invasive privacy policies where they can collect a lot of information about you that Minecraft itself doesn't even collect. A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
 	* Usually these clients contain paid goodies, refer to the above section for why that's bad
 * ### Badlion Client 
 	* At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
@@ -35,7 +35,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 * ### Lunar Client 
 	* Suspicious behavior(Obfuscates logs or atleast used to)
 	* I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
-	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using 
+	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
 	* \* Refer to `Most "clients"`
 * ### TLauncher 
 	* Piracy
