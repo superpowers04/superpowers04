@@ -8,7 +8,8 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * **If talking about NSFW stuff bothers you, or you're underaged, Please tell me.** 
 * If you have a question or need help with something, Please send me the question instead of saying that you need help or pinging me
   - It makes response times from me faster because I can immediately respond to you instead of having to respond and then wait for you to type out your message<br>
-  then it's a question about if you can get your Minecraft Java Account back because it got hacked and I have to inform you that I do not work for Mojank and then you get mad at me because you had to wait 5 hours for a response because I was ASLEEP a- wait, what was I talking about again?
+  then it's a question about if you can get your Minecraft Java Account back because it got hacked and I have to inform you that I do not work for Mojank and then you get mad at me because you had to wait 5 hours for a response because I was ASLEEP a- wait, what was I talking about again? oh right
+* ***I don't work for Mojang***<br>None of the helpers or admins in Minecraft Community Support are affiliated with Mojang or Microsoft. We cannot help with account issues or recover your account. Please contact Microsoft or Mojang, all I can do is provide help for getting the funny little block game to work on your computer
 
 # The links to the funny extras
 - [Pronouns.page](https://en.pronouns.page/@superpowers04)
