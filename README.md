@@ -16,7 +16,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 - [Github](https://github.com/superpowers04)
 - [Discord](https://discordapp.com/users/267737465152864256)(Superpowers04#3887)
 # Current Projects
-* [Super Engine](https://github.com/superpowers04/Super-Engine) - A overhaul of Kade Engine 0.4.2 that adds things like a chart menu, script support, custom characters and supposed to be a one-time install so you don't have 20 copies of the game on your harddrive
+* [Super Engine](https://github.com/superpowers04/Super-Engine) - What started out as an extension to Kade Engine 1.4.2 is now a custom FNF engine by me that features a bunch of moddability without source code, options to add new charts and characters without touching a single line of code, a whole bunch of customization options, basic support for charts from Psych Engine, VSlice(0.3.0+ base funkin') and a whole bunch of other engines, all with a new input engine I designed myself and a whole slew of random shit I rewrote. As of writing this, I've been working on this piece of shit for like 3 years(Started late 2021, before Psych Engine even existed !!!!) 
 * [Extura](https://github.com/superpowers04/Extura) - A personal fork of [ConstantDust's Figura Fork](https://github.com/ConstantDust/Figura) that adds a bunch of random things I want to add
 # Main Hyperfixations
 * Friday Night Funkin'
