@@ -1,6 +1,6 @@
 [Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
-TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, and video games
-* She/her
+TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD
+ * She/her
 
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
 * If I say something that bothers you, Please let me know :>
@@ -23,6 +23,8 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * Minecraft
 
 # Some random info
+- If I say h, I'm saying it to indicate I'm listening but don't know what to say or have nothing to say
+
 - I am not looking for a partner at the moment
 - Purple is pog
 - I code in lua and haxe
