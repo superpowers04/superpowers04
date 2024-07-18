@@ -33,7 +33,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Suspicious behavior
 	* \* Refer to `Most "clients"`
 * ### Lunar Client 
-	* Suspicious behavior(Obfuscates logs or atleast used to)
+	* Suspicious behavior like obfuscating logs
 	* I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
 	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
 	* \* Refer to `Most "clients"`
