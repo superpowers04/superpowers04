@@ -116,6 +116,7 @@ Mods that help with performance. I'd recommend having all of these. This is the 
 
 # Extra Performance Stuff
 Mods that can help with performance but might have incompatibilities or whatever. These are mostly optional 
+* #### [Pretty much every performance mod from someaddon](https://www.curseforge.com/members/someaddon/projects) -- As much as I prefer to stay away from curseforge, someaddon has some amazing optimization mods for both client and server. I personally use these mods on my own modpacks as often as I can, they usually don't break anything.
 * #### [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with some mods since it does a lot for rendering. Although I haven't seen any mods have incompatibilities with this mod
 * #### [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this
 * #### [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff
@@ -124,6 +125,8 @@ Mods that can help with performance but might have incompatibilities or whatever
 * #### [Distant Horizons](https://modrinth.com/mod/distanthorizons) -- Allows you to see far past your render distance without causing lag. However this mod only works with some setups and is very very buggy
 * #### [Bobby](https://modrinth.com/mod/bobby) -- Allows for render distances greater than the server's view-distance setting by caching chunks and using the cache. In some ways, this could theroetically help with network issues
 * #### [Raknetify](https://modrinth.com/plugin/raknetify) -- A mod that allows you to join servers with the mod via raknet. This can supposedly help with network instability but I've never tried it
+* #### [Not Enough Recipe Book(Required on server and Client and EMI+JEI recommended)](https://modrinth.com/mod/nerb) -- A mod that removes the recipe book from the game, the game stores ALL of your recipes in your NBT which can cause network lag and Minecraft isn't exactly optimised at handling recipes either. Note that if you still want recipes you'll need EMI or JEI
+* #### [EMI, Only helpful if using with the above](https://modrinth.com/mod/emi) -- EMI is basically Not Enough Items ported to modern versions of Minecraft. For better mod compatibility, you'll probably also want [Just Enough Items](https://modrinth.com/mod/jei), While they technically do the same thing, EMI has more customization options and (in my experience) is lighter than JEI. EMI will basically use JEI to support more mods without actually using JEI if that makes sense
 
 
 # Optifine features
