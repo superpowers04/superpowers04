@@ -22,7 +22,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Some clients will directly login to your account instead of asking for permission, which is known as oAuth. This means the client has FULL access to your Microsoft account. Whilst logging on, launchers should either open a website asking for permissions on the official Microsoft website, or provide you with a code to put into a web browser on the official Microsoft website. ***If the client you are using requires direct login to your Microsoft account, immediately uninstall the launcher and change your Microsoft Account Password. The client has FULL ACCESS TO YOUR MICROSOFT ACCOUNT AND A MINECRAFT CLIENT OR LAUNCHER SHOULD NEVER NEED THIS.*** 
 	* Most clients are closed source, meaning you cannot see the code for the client. This alone is a red flag. 
 	* These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox.
-	* Mods or clients should NEVER ask for administrator permissions after installation.
+	* Many launchers or clients will _ask_ for administrator access after installation, however launcher and clients should NEVER require this.
 	* These clients have invasive privacy policies where they can collect information about you that Minecraft itself doesn't even collect. A Minecraft client should NEVER need access to your internet activity, geo-location, phone number, home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!? THEY CAN EVEN SELL IT TO OTHER COMPANIES?!??!??!?!?!?
 	* Usually these clients contain paid goodies, refer to the above section for why that's bad.
 * ### Badlion Client 
