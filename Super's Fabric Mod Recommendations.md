@@ -29,14 +29,15 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Many clients have some invasive privacy policies where they can collect a lot of information about you that Minecraft itself doesn't even collect. A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!? THEY CAN EVEN SELL IT TO OTHER COMPANIES?!??!??!?!?!?
 	* Many clients contain paid goodies, refer to the above section for why that's bad
 * ### Badlion Client
-	* At a simple glance, their privacy policy seems less suspicious than Lunar Client's however they sell cosmetics which is enough for me to be sus on them to be honest
+	* Redistributes and modifies mods (especially OptiFine) without permission from the creators
+	* It has an anticheat that runs in the background with driver level permissions 24/7 WHICH NO MINECRAFT CLIENT SHOULD REQUIRE
 	* \* Refer to `Most "clients"`
 * ### Feather Client
-	* Steals mods/has stolen mods in the past
-	* Suspicious behavior
+	* Steals mods/has stolen mods in the past and has modified them, which could cause issues and is definitely suspicious
+	* Obfuscates code
 	* \* Refer to `Most "clients"`
 * ### Lunar Client
-	* Suspicious behavior like obfuscating logs, by the way, obfuscating logs can make it difficult to troubleshoot what's going on with your game if you encounter an issue
+	* Suspicious behavior like obfuscating logs. Fun fact, obfuscating logs can make it difficult or even impossible to troubleshoot what's going on with your game if you encounter an issue
 	* I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
 	* Several people have encountered Lunar Client acting like an Alt account generator, causing the game to disallow them from joining servers. IF you get a "Switch to Mojang Mode" error, that's Lunar Client and you should switch away immediately and change your Microsoft account's password
 	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
@@ -60,7 +61,7 @@ This is just a funni list of recommendations from me and I really recommend you 
 * ### Essential
 	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
 	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
-	* It adds expensive cosmetics and such
+	* It adds expensive cosmetics, refer to `Paid Custom Content`
 	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
 
 # Some general recommendations
