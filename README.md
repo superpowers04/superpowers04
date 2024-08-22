@@ -1,4 +1,4 @@
-# The about me for the funny Stephanie
+# The about me for the funny Stephanie(MEEEEE  :3)
 [Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
 #### TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD
  * She/her
@@ -6,10 +6,12 @@
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
 * If I say something that bothers you, Please let me know :>
 * Note that some of the things I say or talk about are NSFW(Pretty much just sexual NSFW). I can avoid saying NSFW stuff in more professional settings(Minecraft Community Support for example), when talking to minors or if asked though. 
-* **If talking about NSFW stuff bothers you, or you're underaged, Please tell me.** 
+> [!WARNING]
+> **If talking about NSFW stuff bothers you, or you're younger than 18, Please tell me.** <br>
+<sup>You should also let me know if NSFW stuff doesn't bother you, so I can better control how I talk to you :3</sup>
 * If you have a question or need help with something, Please send me the question instead of saying that you need help or pinging me
-  - It makes response times from me faster because I can immediately respond to you instead of having to respond and then wait for you to type out your message<br>
-  then it's a question about if you can get your Minecraft Java Account back because it got hacked and I have to inform you that I do not work for Mojank and then you get mad at me because you had to wait 5 hours for a response because I was ASLEEP a- wait, what was I talking about again? oh right
+  - It makes response times from me faster because I can immediately respond to you instead of having to respond and then wait for you to type out your message 
+  <sub>then it's a question about if you can get your Minecraft Java Account back because it got hacked and I have to inform you that I do not work for Mojank and then you get mad at me because you had to wait 5 hours for a response because I was ASLEEP a-</sub> wait, what was I talking about again? oh right
 * ***I don't work for Mojang***<br>None of the helpers or admins in Minecraft Community Support are affiliated with Mojang or Microsoft. We cannot help with account issues or recover your account. Please contact Microsoft or Mojang, all I can do is provide help for getting the funny little block game to work on your computer
 
 # Info about me
@@ -19,6 +21,8 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * Sexuality: Lesbian :3
 * Relationship Status: Not interested in one
 * Interests: Programming, Drawing, Minecraft, NSFW content(hence the disclaimer above, please read it), ~~your mother~~
+> [!NOTE]
+> I also have an OC named Stephanie, we are not the same being.<br><sub>TL;DR, I created an OC that was originally me but she started splitting off from me so much that I don't use her as my persona anymore</sub>
 
 # The links to the funny extras
 - [Pronouns.page](https://en.pronouns.page/@superpowers04)
