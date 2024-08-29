@@ -57,6 +57,9 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list.
 	* Can cause a lot of issues due to how it changes rendering.
  	* Sodium/Embeddium provides far better performance and you can find alternatives with more features.
+	* Stole a bunch of features from MCPatcher, and STILL brags about making it obsolete on it's website TO THIS DAY(Aug-29-2024)
+		![image](https://github.com/user-attachments/assets/d63fe711-df59-4ed7-98f8-36c8346fc024)
+
 	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect OptiFine and I haven't really seen any alternatives.
 * ### Essential
 	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
