@@ -66,10 +66,14 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
 	* It adds expensive cosmetics, refer to `Paid Custom Content`
 	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
+* ### The default launcher
+	* It might seem counter-intuitive but the base launcher is honestly pretty unstable and isn't the best for modding
 
 # Some general recommendations
+  > [!NOTE] 
+  > You cannot download Curseforge mods from within the Modrinth launcher. You have to add them manually.
 * [Modrinth (Launcher/Mod distribution website)](https://modrinth.com/) -- A replacement for Curseforge, Pretty much all of the mods on this list come from here. It's open source, isn't owned by a cringe corporation, doesn't try to shove it's launcher down your throat and has no 3 second wait for a download.
-* [Prism Launcher (Launcher)](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
+* [Prism Launcher (Launcher)](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods from Modrinth and Curseforge within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
 * [MultiMC (Launcher)](https://multimc.org) -- An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly replaces MultiMC though
 * [Fabric (Mod Loader)](https://fabricmc.net/) -- While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
 * [Quilt (Mod Loader)](https://quiltmc.org/en/) -- Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
