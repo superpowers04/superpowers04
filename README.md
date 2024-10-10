@@ -5,9 +5,9 @@
 # Basic biography
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
 
-> [!WARNING]
+> [!CAUTION]
 **If you're going to DM me, and talking about NSFW stuff bothers you or you're younger than 18, Please tell me.** <br>
-<sup>You should also let me know if NSFW(Specifically sexual NSFW) stuff doesn't bother you, so I can better control how I talk to you :3</sup>
+  <sup>You should also let me know if NSFW(Specifically sexual NSFW) stuff doesn't bother you, so I can better control how I talk to you :3</sup>
 * If I say something that bothers you, Please let me know :>
 * I can avoid saying NSFW stuff in more professional settings(Minecraft Community Support for example), when talking to minors or if asked
 * If you have a question or need help with something, Please send me the question instead of saying that you need help or pinging me
