@@ -1,10 +1,42 @@
 # Super's Minecraft recommendation list thing
-(Unless specified, All mods work with Quilt, providing you have Quilt's libraries instead)
-***Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric, Quilt or anyone else.***
+***Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric or anyone else.***
 
-This is just a funni list of recommendations from me and I really recommend you do research yourself before installing anything listed here. **Please do not ever blindly follow anything you see online**
+This is just a bunch of lists for Minecraft I made and I really recommend you do research yourself before installing anything listed here. **Please do not ever blindly follow anything you see online**
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
+# Term Glossary
+Terms often used when refering to Minecraft and/or Modding Minecraft
+* [Minecraft](https://minecraft.wiki/w/Minecraft) - The game this page is about. Unless specified, I'm usually refering to Minecraft: Java Edition
+* [Mojang](https://en.wikipedia.org/wiki/Mojang) - The company that owns and develops Minecraft
+* [Microsoft](https://en.wikipedia.org/wiki/Microsoft) - The parent company of Mojang. Note Microsoft is NOT Mojang.
+* [Java Edition](https://minecraft.wiki/w/Java_edition) - The Original Minecraft, Minecraft for Windows, MacOS and Linux, made using Java. Unless specified, I'm usually refering to Minecraft: Java Edition
+* [Java](https://en.wikipedia.org/wiki/Java) - The programming language used for Minecraft Java Edition.
+* [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) - A program/Virtual Machine that runs Java bytecode, which in turn runs Minecraft: Java Edition.
+* .jar - A Java Archive, basically a special zip used by Java that usually contains code or assets
+* [Bedrock Edition](https://minecraft.wiki/w/Bedrock_edition) - Minecraft's cross platform release. Has a bunch of differences from Java Edition. Refer to [Minecraft Wiki's parity list](https://minecraft.wiki/w/Official_pages/Parity_issue_list) for a compilation of ALL of the changes
+	* [Behavior Pack](https://minecraft.wiki/w/Behavior_Pack) - Sorta like Minecraft Data packs, I think. I don't play Bedrock Edition so I don't entirely know. These do NOT exist on Java Edition
+	* [Addon](https://minecraft.wiki/w/Addon) - Kinda like Mods, I think. I don't play Bedrock Edition so I don't entirely know. These do NOT exist on Java Edition
+
+* [Launcher](https://minecraft.wiki/w/Minecraft_Launcher) - Refers to the program used to launch the game, Minecraft requires a launcher because some things need to be setup before the game can run
+* [Client](https://minecraft.wiki/w/Client) - The actual window that shows the game, handles the GUI, displaying things on the screen, and stuff like that.
+* [Server](https://minecraft.wiki/w/Server) - The program that's running the world you're playing on. Handles things like breaking/placing blocks, movement, mob activity, etc
+	* Past Minecraft Release 1.3.1, You will always be playing on a server, even in SinglePlayer.
+* [Resource Pack](https://minecraft.wiki/w/Resource_Pack) - A file or folder that edit's the clients resources. Usually replaces things like textures, names, models and sounds.
+	* [Texture Pack](https://minecraft.wiki/w/Texture_pack) - Outdated term that usually refers to a resource pack nowadays, Minecraft stopped using the term Texture Packs around 1.5
+* [.minecraft](https://minecraft.wiki/w/.minecraft) - Refers to the folder where the game's files are located.<br>
+	Using the default Launcher, these are located under 
+	* `%Appdata%/roaming/.minecraft` for Windows
+	* `~/Library/Application Support/minecraft` for MacOS
+	* `~/.minecraft` for Linux
+	Other launchers will use different locations for your .minecraft, for example, Prism's portable install will store game files under Prism/Instances/INSTANCE/.minecraft
+* Instance - A setup for Minecraft, usually specifies the location of the game's .minecraft, what ModLoader to use, it's JVM arguments, etc
+* [Modloader](https://minecraft.wiki/w/Modloader) - A modification to the game's jar file that allows the game to load mods. Usually from .minecraft/mods
+* [Mod](https://minecraft.wiki/w/Mods) - A file(usually a jar) that gets loaded by a ModLoader to edit or add to the game. Mods usually edit the game's code.
+* [Shaders/ShaderPack](https://minecraft.wiki/w/Shader) - A zip that usually adds effects to Minecraft like better shadows or reflections. Requires a mod that provides support for Shaders like Iris or Oculus
+* [Forge](https://minecraft.wiki/w/Mods/Forge) - A Minecraft Modloader, commonly used for larger content mods and/or versions below 1.13.
+* [Fabric](https://minecraft.wiki/w/Mods/Fabric) - A Minecraft Modloader, commonly used for smaller mods and/or versions above 1.13.
+
+
 # Recommendations on what to **avoid** using and why
 * ### Most minecraft mod downloading sites
 	* A good portion of sites for Minecraft mods have malware or steal mods. I'd only recommend using Modrinth, MCArchive, github and whatever official pages a mod has for downloading from. 
@@ -42,14 +74,14 @@ This is just a funni list of recommendations from me and I really recommend you 
 	* Several people have encountered Lunar Client acting like an Alt account generator, causing the game to disallow them from joining servers. IF you get a "Switch to Mojang Mode" error, that's Lunar Client and you should switch away immediately and change your Microsoft account's password
 	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
 	* \* Refer to `Most "clients"`
-* ### TLauncher
+* ### TLauncher(Not ATLauncher)
 	* Piracy
 	* Steals mods
 	* Installs suspicious certificates onto your computer
 	* Stole the name and some other drama with TL Legacy/TL Legacy Launcher
 	* Refer to `Paid Custom Content`
 	* \* Modrinth and Prism launcher are good alternatives
-* ### Curseforge/Curseforge Launcher
+* ### Curseforge(Launcher)
 	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
 	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
 	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
@@ -76,36 +108,29 @@ This is just a funni list of recommendations from me and I really recommend you 
 * [Prism Launcher (Launcher)](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods from Modrinth and Curseforge within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
 * [MultiMC (Launcher)](https://multimc.org) -- An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly replaces MultiMC though
 * [Fabric (Mod Loader)](https://fabricmc.net/) -- While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
-* [Quilt (Mod Loader)](https://quiltmc.org/en/) -- Quilt is like fabric but adds some extra features. Using QSL(mentioned below), You can also run most Fabric mods.
+* [Forge (Mod Loader)](https://files.minecraftforge.net/net/minecraftforge/forge/) -- Forge(Commonly mixed up with CurseForge) is a modloader for Minecraft. It has existed for years and has been the MAIN modloader for a decade.
 * [Neoforge (Mod Loader)](https://neoforged.net) -- Neoforge is a fork of forge that is better than forge in performance. With [Sinytra](https://modrinth.com/mod/connector), you can add support for a good portion of fabric-only mods. Note that Sinytra needs a bit of messing around with to work properly
 * [MCArchive (Mod archival website)](https://mcarchive.net) -- A archive of older Minecraft mods, it's open source and maintained by the community. It gives links to the original download if it's still available, links to the author and doesn't have any ads
 * [Stop Mod Reposts (Browser extension)](https://stopmodreposts.org) -- While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
 
-# Required(Fabric/Quilt)
+# Required(Fabric)
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
-Mods for Fabric. Note if you're using Fabric, you should not use mods from the Quilt section
+Practically required mods for Fabric. 
  * [Fabric API](https://modrinth.com/mod/fabric-api) -- Fabric API, Required for most Fabric mods
  * [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) -- Allows mods to use Kotlin with Fabric, several mods need this
-### [Quilt Loader Only](https://quiltmc.org/en/)
-Mods for Quilt. Note if you're using Quilt, you should not use mods from the Fabric section
- * [Quilted Fabric API/Quilt Standard Libraries](https://modrinth.com/mod/qsl) -- Quilt API. Includes a Fabric API compatibility layer for Fabric mods
- * [Quilt Kotlin Libraries](https://modrinth.com/mod/qkl) -- Allows mods to use Kotlin with Quilt, several mods need this
-  
-### Quilt and Fabric
-Mods that work on both Quilt and Fabric and are required in most cases
  * [Mod Menu](https://modrinth.com/mod/modmenu) -- Adds an ingame modlist allowing you to edit configs and such
  * [Cloth Config API](https://modrinth.com/mod/cloth-config) -- Some mods use this for providing their config
  * [Yet Another Config Library(YACL)](https://modrinth.com/mod/yacl) -- Some mods use this for providing their config
 
 # Base Performance Mods
 Mods that help with performance. I'd recommend having all of these. This is the only section I'll provide forge Alternatives for since I don't really use forge. Sorry
- * #### All loaders(Fabric, Quilt, Neoforge and Forge)
+ * #### All loaders(Fabric, Neoforge and Forge)
    * [Modern Fix](https://modrinth.com/mod/modernfix) -- Applies a bunch of client-sided fixes and helps with performance
    * [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
    * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
    * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has both Forge and Fabric builds. It *could* be faster than sodium but I haven't really tested
    * [Embeddium Extra](https://modrinth.com/mod/embeddium) -- Sodium Extra but for Embeddium
- * #### Fabric/Quilt
+ * #### Fabric
    * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
    * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
    * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options, Only required for Sodium as Embeddium integrates this mod already
@@ -113,7 +138,9 @@ Mods that help with performance. I'd recommend having all of these. This is the 
    * [Indium](https://modrinth.com/mod/indium) -- A mod for sodium that mostly just adds better compatibility, Built into Embeddium
    * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
  * #### Neoforge/Forge
-   * [Oculus](https://modrinth.com/mod/oculus) -- Iris but on Forge ~~and with worse performance somehow~~
+   * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium. It *could* be faster than sodium but I haven't really tested. Listed again for parity ig
+   * [Embeddium Extra](https://modrinth.com/mod/embeddium) -- Sodium Extra but for Embeddium
+   * [Oculus](https://modrinth.com/mod/oculus) -- Iris but on Forge
    * ~~[Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options~~ - This is now included in embeddium
 
 
@@ -158,3 +185,4 @@ Some of these mods also provide alternatives to the `Recommendations on what to 
 
 # Some helpful resources
 * [OptiFine Alternatives by LambdAurora](https://github.com/LambdAurora/OptiFine_alternatives)
+* [Minecraft Community Support](https://discord.gg/58Sxm23)
