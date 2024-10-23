@@ -1,6 +1,6 @@
 # The about me for the funny Stephanie(MEEEEE  :3)
 [Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
-#### TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD
+#### TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD and/or autism
  * She/her
 # Basic biography
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
@@ -24,6 +24,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * Goal in life ig?: To have fun and attempt to make people's days better, I'm not the best at it and it's kinda cliche but I hope I'm atleast getting somewhere :3 
 * Relationship Status: Not interested in one
 * Interests: Programming, Drawing, Minecraft, NSFW content(hence the disclaimer above, please read it), ~~your mother~~
+
  > [!NOTE]
  > I also have an OC named Stephanie, we are not the same being.<br><sub>TL;DR, I created an OC that was originally me but she started splitting off from me so much that I don't use her as my persona anymore</sub>
 
@@ -36,8 +37,8 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * [Extura](https://github.com/superpowers04/Extura) - A personal fork of [ConstantDust's Figura Fork](https://github.com/ConstantDust/Figura) that adds a bunch of random things I want to add
 
 # Some random info
-- If I say h, I'm saying it to indicate I'm listening but don't know what to say or have nothing to say
-
+- If I say h, I'm probably saying it to indicate I'm listening but don't know what to say or have nothing to say
+- Unless I talk to someone daily, I will probably forget they exist
 - Purple is pog
 - I code in lua and haxe
 - women
