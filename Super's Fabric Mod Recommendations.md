@@ -18,7 +18,7 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* [Addon](https://minecraft.wiki/w/Addon) - Kinda like Mods, I think. I don't play Bedrock Edition so I don't entirely know. These do NOT exist on Java Edition
 
 * [Launcher](https://minecraft.wiki/w/Minecraft_Launcher) - Refers to the program used to launch the game, Minecraft requires a launcher because some things need to be setup before the game can run
-* [Client](https://minecraft.wiki/w/Client) - The actual window that shows the game, handles the GUI, displaying things on the screen, and stuff like that.
+* [Client](https://minecraft.wiki/w/Client) - The actual program you interface with to play the game. Basically it handles the GUI, displaying mobs, players, blocks, etc on the screen, and stuff like that.
 * [Server](https://minecraft.wiki/w/Server) - The program that's running the world you're playing on. Handles things like breaking/placing blocks, movement, mob activity, etc
 	* Past Minecraft Release 1.3.1, You will always be playing on a server, even in SinglePlayer.
 * [Resource Pack](https://minecraft.wiki/w/Resource_Pack) - A file or folder that edit's the clients resources. Usually replaces things like textures, names, models and sounds.
