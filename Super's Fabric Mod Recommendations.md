@@ -81,8 +81,9 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Stole the name and some other drama with TL Legacy/TL Legacy Launcher
 	* Refer to `Paid Custom Content`
 	* \* Modrinth and Prism launcher are good alternatives
-* ### Curseforge(Launcher)
+* ### Curseforge
 	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
+	* Curseforge uses anti-competitive behaviors like making it more difficult to install some mods on other launchers by forcing you to manually download the mods. 
 	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
 	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
 * ### OptiFine(On 1.14 and above\*)
@@ -105,13 +106,24 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
   > [!NOTE] 
   > You cannot download Curseforge mods from within the Modrinth launcher. You have to add them manually.
 * [Modrinth (Launcher/Mod distribution website)](https://modrinth.com/) -- A replacement for Curseforge, Pretty much all of the mods on this list come from here. It's open source, isn't owned by a cringe corporation, doesn't try to shove it's launcher down your throat and has no 3 second wait for a download.
-* [Prism Launcher (Launcher)](https://prismlauncher.org) -- An fork/drop-in replacement of MultiMC that allows downloading mods from Modrinth and Curseforge within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
+* [Prism Launcher (Launcher)](https://prismlauncher.org) - A fork/drop-in replacement of MultiMC that allows downloading mods from Modrinth and Curseforge within the launcher, has a whole bunch of fixes and improvements. This is the launcher I currently use.
 * [MultiMC (Launcher)](https://multimc.org) -- An advanced lightweight Minecraft Launcher that's portable, allows multiple instances of the game without too much hassle, and easy installing of mod loaders like Fabric. Prism Launcher mostly replaces MultiMC though
 * [Fabric (Mod Loader)](https://fabricmc.net/) -- While yes this guide is for Fabric, I thought I'd atleast mention it here. Fabric is more lightweight than Forge, and since the loader isn't dependant on Minecraft version, you'll usually get a fabric release within the first few days of a Minecraft update
 * [Forge (Mod Loader)](https://files.minecraftforge.net/net/minecraftforge/forge/) -- Forge(Commonly mixed up with CurseForge) is a modloader for Minecraft. It has existed for years and has been the MAIN modloader for a decade.
 * [Neoforge (Mod Loader)](https://neoforged.net) -- Neoforge is a fork of forge that is better than forge in performance. With [Sinytra](https://modrinth.com/mod/connector), you can add support for a good portion of fabric-only mods. Note that Sinytra needs a bit of messing around with to work properly
 * [MCArchive (Mod archival website)](https://mcarchive.net) -- A archive of older Minecraft mods, it's open source and maintained by the community. It gives links to the original download if it's still available, links to the author and doesn't have any ads
 * [Stop Mod Reposts (Browser extension)](https://stopmodreposts.org) -- While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
+
+# Why I recommend Prism Launcher over other launchers
+* Prism Launcher is programmed in C++ and uses a very simple but powerful UI. This means less of your computers resources go towards rendering an entire webpage
+* Prism Launcher isn't locked to a specific mod distribution platform, you can use modpacks from several sources, and install mods directly from both Modrinth and if you need, Curseforge without needing to open a webpage
+* Prism Launcher has a function over form UI. It's not pretty and might be a bit confusing at first but once you get used to it, it's really fast and really nice to use
+* Prism Launcher can be used portably
+* Prism Launcher is cross platform, You can use it on arm systems or even use it's official flatpak package to run it on a Steam Deck
+* Prism Launcher supports Fabric, Forge, Neoforge, Quilt and Liteloader out of the box but if you know what you're doing, you can use your own custom mod loaders or minecraft.jar mods if desired
+* Prism Launcher is open sourced, meaning you can contribute directly to Prism Launcher if you desire or just browse it's source code. Modrinth is also open source but the vanilla launcher and Curseforge are not
+* Prism Launcher uses seperated instances with their own .minecraft and stuff. This provides advantages like having multiple versions of the game with mods without needing to deal with worrying about corruption or moving files and stuff compared to the vanilla launcher  
+
 
 # Required(Fabric)
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
