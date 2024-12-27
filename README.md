@@ -15,6 +15,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
   <sub>then it's a question about if you can get your Minecraft Java Account back because it got hacked and I have to inform you that I do not work for Mojank and then you get mad at me because you had to wait 5 hours for a response because I was ASLEEP a-</sub> wait, what was I talking about again? oh right
 * ### I don't work for Mojang
   * None of the helpers or admins in Minecraft Community Support are affiliated with Mojang or Microsoft. We cannot help with account issues or recover your account. Please contact Microsoft or Mojang, all I can do is provide help for getting the funny little block game to work on your computer
+* This goober forgets about the existance of people that haven't been interacted with in the past day. So if I randomly stop messaging you, don't take it personally, I do it to literally everyone ~~even family members~~
 
 # Info about me
 * Name: Steph/Stephanie
