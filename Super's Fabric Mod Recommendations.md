@@ -44,7 +44,12 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 * ### Hamachi
 	* Conflicts with the internet, and can cause issues with authentication
 	* I've personally had it mess up my network drivers since it installs a network driver to function
+	* Acts as a VPN
 	* See [E4MC](https://modrinth.com/mod/e4mc) or [playit.gg](https://playit.gg) for alternatives
+* ### Literally any VPN
+	* VPNs have a history of messing up how Minecraft sends packets, this can actually get you banned from servers in some cases
+	* VPNs change how servers identify you by changing your IP, this could theroetically make you suffer a ban from the server detecting it or someone else getting IP banned and then you unluckily getting the IP that was banned
+	* If you're using a VPN for security reasons, refer to [this video by Tom Scott](https://www.youtube.com/watch?v=WVDQEoe6ZWY)
 * ### MCLeaks/TheAltening
 	* Stolen/Illegal account generator. 
 	* \* Follow [this Minecraft Hopper article](https://minecrafthopper.net/help/hosts-file/) for fix/removal
@@ -59,45 +64,53 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Most clients are closed source, meaning you cannot see the code for the client
 	* These clients directly modify the game's code and could be doing literally anything to your computer. While this is true for mods, usually mods are in atleast some kind of sandbox.
 	* Many clients have some invasive privacy policies where they can collect a lot of information about you that Minecraft itself doesn't even collect. A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!? THEY CAN EVEN SELL IT TO OTHER COMPANIES?!??!??!?!?!?
-	* Many clients contain paid goodies, refer to the above section for why that's bad
+	* Some clients and launchers will obfuscate their code. This makes it harder to figure out why your game crashed, makes it harder to know what the client is ACTUALLY doing
+	* Many clients contain paid goodies, Refer to [Paid Custom Content](#paid-custom-content)
 * ### Badlion Client
 	* Redistributes and modifies mods (especially OptiFine) without permission from the creators
 	* It has an anticheat that runs in the background with driver level permissions 24/7 WHICH NO MINECRAFT CLIENT SHOULD REQUIRE
-	* \* Refer to `Most "clients"`
+	* Refer to [Most "clients"](#most-clients-and-many-launchers)
 * ### Feather Client
 	* Steals mods/has stolen mods in the past and has modified them, which could cause issues and is definitely suspicious
 	* Obfuscates code
-	* \* Refer to `Most "clients"`
+	* Refer to [Most "clients"](#most-clients-and-many-launchers)
 * ### Lunar Client
 	* Suspicious behavior like obfuscating logs. Fun fact, obfuscating logs can make it difficult or even impossible to troubleshoot what's going on with your game if you encounter an issue
 	* I remember an issue where Lunar Client had broken hit detection for a short period of time, not sure if this was actually true, if so, it shouldn't be editing player behavior
 	* Several people have encountered Lunar Client acting like an Alt account generator, causing the game to disallow them from joining servers. IF you get a "Switch to Mojang Mode" error, that's Lunar Client and you should switch away immediately and change your Microsoft account's password
 	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
-	* \* Refer to `Most "clients"`
-* ### TLauncher(Not ATLauncher)
+	* Refer to [Most "clients"](#most-clients-and-many-launchers)
+* ### TLauncher(Seperate from ATLauncher)
 	* Piracy
 	* Steals mods
 	* Installs suspicious certificates onto your computer
 	* Stole the name and some other drama with TL Legacy/TL Legacy Launcher
-	* Refer to `Paid Custom Content`
+	* Refer to [Many launchers](#most-clients-and-many-launchers)
 	* \* Modrinth and Prism launcher are good alternatives
+* ### Pirated Launchers and/or account generators
+	* The obvious piracy concerns
+	* Some of these launchers or account generators might modify system files. Ironically, you actually don't need to modify ANY system files to play the game for free so any launchers doing this are probably doing it for malicious reasons
+	* Some of these launchers will use their own jars and libraries, This absurdly bad because it makes the game less stable
+	* Some of these launchers are closed source which is not good usually
+	If you really want to play the game, I'd really recommend purchasing it if you can. If you really can't buy the game, look towards [luanti(Formerly Minetest)](https://www.luanti.org) or maybe use an open source launcher. Just be careful
 * ### Curseforge
 	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
 	* Curseforge uses anti-competitive behaviors like making it more difficult to install some mods on other launchers by forcing you to manually download the mods. 
 	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
 	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
 * ### OptiFine(On 1.14 and above\*)
-	* Has violated Minecraft's EULA several times in the past. Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list.
+	* Has violated Minecraft's EULA several times in the past.
+	* Closed source, basically nobody can see the source code, This is really bad for mod compatibility, which should be a huge worry for a mod that used to be essential for your mod list.
 	* Can cause a lot of issues due to how it changes rendering.
  	* Sodium/Embeddium provides far better performance and you can find alternatives with more features.
 	* Stole a bunch of features from MCPatcher, and STILL brags about making it obsolete on it's website TO THIS DAY(Aug-29-2024)
 		![image](https://github.com/user-attachments/assets/d63fe711-df59-4ed7-98f8-36c8346fc024)
-
+	* Refer to [Paid Custom Content](paid-custom-content)
 	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect OptiFine and I haven't really seen any alternatives.
 * ### Essential
 	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
 	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
-	* It adds expensive cosmetics, refer to `Paid Custom Content`
+	* It adds expensive cosmetics, refer to [Paid Custom Content](paid-custom-content)
 	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
 * ### The default launcher
 	* It might seem counter-intuitive but the base launcher is honestly pretty unstable and isn't the best for modding
@@ -114,16 +127,15 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 * [MCArchive (Mod archival website)](https://mcarchive.net) -- A archive of older Minecraft mods, it's open source and maintained by the community. It gives links to the original download if it's still available, links to the author and doesn't have any ads
 * [Stop Mod Reposts (Browser extension)](https://stopmodreposts.org) -- While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
 
-# Why I recommend Prism Launcher over other launchers
-* Prism Launcher is programmed in C++ and uses a very simple but powerful UI. This means less of your computers resources go towards rendering an entire webpage
-* Prism Launcher isn't locked to a specific mod distribution platform, you can use modpacks from several sources, and install mods directly from both Modrinth and if you need, Curseforge without needing to open a webpage
-* Prism Launcher has a function over form UI. It's not pretty and might be a bit confusing at first but once you get used to it, it's really fast and really nice to use
-* Prism Launcher can be used portably
-* Prism Launcher is cross platform, You can use it on arm systems or even use it's official flatpak package to run it on a Steam Deck
-* Prism Launcher supports Fabric, Forge, Neoforge, Quilt and Liteloader out of the box but if you know what you're doing, you can use your own custom mod loaders or minecraft.jar mods if desired
-* Prism Launcher is open sourced, meaning you can contribute directly to Prism Launcher if you desire or just browse it's source code. Modrinth is also open source but the vanilla launcher and Curseforge are not
-* Prism Launcher uses seperated instances with their own .minecraft and stuff. This provides advantages like having multiple versions of the game with mods without needing to deal with worrying about corruption or moving files and stuff compared to the vanilla launcher  
-
+# Why I recommend [Prism Launcher](https://prismlauncher.org) over other launchers
+* [Prism Launcher](https://prismlauncher.org) is programmed in C++ and uses a very simple but powerful UI. This means less of your computers resources go towards rendering an entire webpage
+* [Prism Launcher](https://prismlauncher.org) isn't locked to a specific mod distribution platform, you can use modpacks from several sources, and install mods directly from both Modrinth and if you need, Curseforge without needing to open a webpage
+* [Prism Launcher](https://prismlauncher.org) has a function over form UI. It's not pretty and might be a bit confusing at first but once you get used to it, it's really fast and really nice to use
+* [Prism Launcher](https://prismlauncher.org) can be used portably
+* [Prism Launcher](https://prismlauncher.org) is cross platform, You can use it on arm systems or even use it's official flatpak package to run it on a Steam Deck
+* [Prism Launcher](https://prismlauncher.org) supports Fabric, Forge, Neoforge, Quilt and Liteloader out of the box but if you know what you're doing, you can use your own custom mod loaders or minecraft.jar mods if desired
+* [Prism Launcher](https://prismlauncher.org) is open sourced, meaning you can contribute directly to Prism Launcher if you desire or just browse it's source code. Modrinth is also open source but the vanilla launcher and Curseforge are not
+* [Prism Launcher](https://prismlauncher.org) uses seperated instances with their own .minecraft and stuff. This provides advantages like having multiple versions of the game with mods without needing to deal with worrying about corruption or moving files and stuff compared to the vanilla launcher  
 
 # Required(Fabric)
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
@@ -188,6 +200,7 @@ OptiFine features ported over to Sodium and Iris
 Random mods I thought I'd mention because I like using them and think they're cool.<br>
 Some of these mods also provide alternatives to the `Recommendations on what to **avoid** using and why` section
  * [Figura](https://modrinth.com/mod/figura/) -- A completely client sided mod that allows you to use custom [BlockBench](https://blockbench.net/) player models that can be scripted with [Lua](https://lua.org). Avatars can be seen by other players that have the mod without the server needing the mod.(Note: I do have a bias for Figura since I've personally made a few commits to the repo and have a fork of it. However I hope that doesn't detract from me recommending it)
+ * [Customizable Player Models](https://modrinth.com/plugin/custom-player-models) -- A client+server sided mod that allows you to use custom models made using it's built-in model editor. It can be easier to use than Figura but Figura provides more customizablity with it's lua support. CPM and Figura can both be installed at the same time but you should only equip models from one of them 
  * [No Chat Reports](https://modrinth.com/mod/no-chat-reports) -- "This mod strips cryptographic signatures that since 1.19 are attached to every message sent in the chat. Removing them makes it impossible to track and associate your chat messages with your Minecraft and, by extension, Microsoft account." TL;DR: Removes the thing required to allow your chat messages to be reported to Microsoft/Mojang. ***Note, you might need to disable this on some servers***
  * [E4MC](https://modrinth.com/mod/e4mc) -- Replacement for Essential's multiplayer. It's serversided and far more lightweight
  * [Custom Lan](https://modrinth.com/mod/custom-lan) -- A mod that adds a bunch of options for hosting a world. It supports tunnelling (Note I haven't tested this mod myself)
