@@ -105,12 +105,12 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
  	* Sodium/Embeddium provides far better performance and you can find alternatives with more features.
 	* Stole a bunch of features from MCPatcher, and STILL brags about making it obsolete on it's website TO THIS DAY(Aug-29-2024)
 		![image](https://github.com/user-attachments/assets/d63fe711-df59-4ed7-98f8-36c8346fc024)
-	* Refer to [Paid Custom Content](paid-custom-content)
+	* Refer to [Paid Custom Content](#paid-custom-content)
 	* \* Note, if you're using any Minecraft version belore 1.14, most mods usually expect OptiFine and I haven't really seen any alternatives.
 * ### Essential
 	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
 	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
-	* It adds expensive cosmetics, refer to [Paid Custom Content](paid-custom-content)
+	* It adds expensive cosmetics, refer to [Paid Custom Content](#paid-custom-content)
 	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
 * ### The default launcher
 	* It might seem counter-intuitive but the base launcher is honestly pretty unstable and isn't the best for modding
