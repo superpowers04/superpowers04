@@ -194,8 +194,7 @@ OptiFine features ported over to Sodium and Iris
  * [CIT Resewn](https://modrinth.com/mod/cit-resewn) -- MCPatcher/OptiFine CIT features(Basically the custom textures depending on item nbt instead of just id)
  * [Zoomify](https://modrinth.com/mod/zoomify) -- A mod that allows you to zoom (Requires YACL)
  * [Lamb Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) -- Dynamic Lighting
- * [Continuity (Fabric only)](https://modrinth.com/mod/Continuity) -- Connected Textures compatible with OptiFine's format
- * [Fusion](https://modrinth.com/mod/Fusion) -- Connected Textures
+ * [Continuity (Fabric/Connector only)](https://modrinth.com/mod/Continuity) -- Connected Textures compatible with OptiFine's format
 
 # Random stuff
 Random mods I thought I'd mention because I like using them and think they're cool.<br>
