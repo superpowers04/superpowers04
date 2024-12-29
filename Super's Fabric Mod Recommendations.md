@@ -81,11 +81,12 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* [Their privacy policy](https://www.lunarclient.com/privacy) is sus as hell, IF you plan on continuing to use lunar client for whatever reason, please please look at it and fully grasp what they're using. Like, A Minecraft client should NEVER need access to your Internet activity, geo-location, phone number, or home address?!?!?!?! WHY IS THIS IN LUNAR CLIENT'S PRIVACY POLICY??!?!?!?
 	* Refer to [Most "clients"](#most-clients-and-many-launchers)
 * ### TLauncher(Seperate from ATLauncher)
-	* Piracy
 	* Steals mods
 	* Installs suspicious certificates onto your computer
 	* Stole the name and some other drama with TL Legacy/TL Legacy Launcher
 	* Refer to [Many launchers](#most-clients-and-many-launchers)
+	* Refer to [Pirated Launchers and/or account generators](#pirated-launchers-andor-account-generators)
+	* I cannot stress enough, please do NOT use TLauncher. I know that if you're using this, I'm not going to convince you to buy the game, but there's so many better ways to play Minecraft that don't involve feeding into this disgusting company
 	* \* Modrinth and Prism launcher are good alternatives
 * ### Pirated Launchers and/or account generators
 	* The obvious piracy concerns
