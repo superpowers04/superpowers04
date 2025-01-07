@@ -1,7 +1,14 @@
 # Super's Minecraft recommendation list thing
-***Note this doc is not affiliated with MinecraftHopper, Minecraft Community Support, Prism, Modrinth, Fabric or anyone else.***
+***Note this doc is not affiliated, monitored, or otherwise endorsed by MinecraftHopper, Minecraft Community Support, Prism Launcher, Modrinth, Fabric, Forge, or anyone else. Go to superpowers04 for any questions, support or corrections related to it***
 
-This is just a bunch of lists for Minecraft I made and I really recommend you do research yourself before installing anything listed here. **Please do not ever blindly follow anything you see online**
+This is just a bunch of personal recommendations, general information, and mod lists for Minecraft that I thought would be useful to have in a doc. so I can easily link to it ~~without retyping why someone shouldn't use Lunar Client every time they ask for help with it~~<br>
+I really recommend you do research yourself before installing anything listed here. 
+> [!CAUTION]
+> **Do not ever blindly follow anything you see online as they might provide false information or in the case of a lot of Youtube videos, not know what they're doing and give you instructions that edit files or do other things you really should not do**<br>
+> <sub>I've seen far too many videos edit the files of mods or the game for no reason. If possible look for a *recent* text tutorial for something instead of a Youtube video from 2011 that's filmed using unregistered hypercam on a Windows XP machine</sub>
+
+This file is only named `Super's Fabric Mod Recommendations.md` to prevent older links to this doc from breaking
+
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Term Glossary
@@ -137,6 +144,14 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 * [Prism Launcher](https://prismlauncher.org) supports Fabric, Forge, Neoforge, Quilt and Liteloader out of the box but if you know what you're doing, you can use your own custom mod loaders or minecraft.jar mods if desired
 * [Prism Launcher](https://prismlauncher.org) is open sourced, meaning you can contribute directly to Prism Launcher if you desire or just browse it's source code. Modrinth is also open source but the vanilla launcher and Curseforge are not
 * [Prism Launcher](https://prismlauncher.org) uses seperated instances with their own .minecraft and stuff. This provides advantages like having multiple versions of the game with mods without needing to deal with worrying about corruption or moving files and stuff compared to the vanilla launcher  
+
+# Which modloader to use?
+I'd go by what you're expecting out of it
+* If you're on 1.13.2 or below, you probably want Forge since Fabric has far less support on older versions
+* If you're going for performance, use Fabric, the most performance mods are available for it and it's more lightweight and isn't as strict on the server having the same mods as the player usually
+* If you want a ton of content mods, use Forge. Forge usually doesn't get as many performance mods and doesn't always run as well but it has plenty of content mods
+
+Ultimately it comes down to which mods you want to use. Some mods only work on Fabric, some on Forge and some of them work using Syntra connector on Forge.
 
 # Required(Fabric)
 ### [Fabric Loader Only](https://fabricmc.net/use/installer/)
