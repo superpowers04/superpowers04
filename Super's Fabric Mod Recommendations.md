@@ -100,7 +100,8 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Some of these launchers or account generators might modify system files. Ironically, you actually don't need to modify ANY system files to play the game for free so any launchers doing this are probably doing it for malicious reasons
 	* Some of these launchers will use their own jars and libraries, This absurdly bad because it makes the game less stable
 	* Some of these launchers are closed source which is not good usually
-	If you really want to play the game, I'd really recommend purchasing it if you can. If you really can't buy the game, look towards [luanti(Formerly Minetest)](https://www.luanti.org) or maybe use an open source launcher. Just be careful
+
+	If you really want to play the game, I'd really recommend purchasing it if you can. If you really can't buy the game, look towards [luanti(Formerly Minetest)](https://www.luanti.org) or maybe use an open source launcher if you really must. Just be careful and **please don't expect support with pirated or cracked copies of the game**, refer to all of the reasons above for why MCCS, Modded Minecraft and other Discord servers or communities CANNOT help with these launchers even if it wasn't against their rules(Which it is).
 * ### Curseforge
 	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
 	* Curseforge uses anti-competitive behaviors like making it more difficult to install some mods on other launchers by forcing you to manually download the mods. 
