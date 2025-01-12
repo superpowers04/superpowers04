@@ -8,7 +8,7 @@ I really recommend you do research yourself before installing anything listed he
 > <sub>I've seen far too many videos edit the files of mods or the game for no reason. If possible look for a *recent* text tutorial for something instead of a Youtube video from 2011 that's filmed using unregistered hypercam on a Windows XP machine</sub>
 
 This file is only named `Super's Fabric Mod Recommendations.md` to prevent older links to this doc from breaking
-
+If you want to jump to the recommended mods, you can [click here](#requiredfabric)
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Term Glossary
