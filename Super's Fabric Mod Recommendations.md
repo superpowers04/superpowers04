@@ -169,17 +169,15 @@ Mods that help with performance. I'd recommend having all of these. This is the 
    * [Modern Fix](https://modrinth.com/mod/modernfix) -- Applies a bunch of client-sided fixes and helps with performance
    * [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix) -- Fixes some memory leaks
    * [More Culling](https://modrinth.com/mod/moreculling) -- Adds more options for culling(Prevents things you can't see from taking up rendering time)
-   * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has both Forge and Fabric builds. It *could* be faster than sodium but I haven't really tested
-   * [Embeddium Extra](https://modrinth.com/mod/embeddium) -- Sodium Extra but for Embeddium
+   * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff. As of Sodium 6.X, Sodium works on both fabric and forge. But may have incompatibilities on 1.20.1 **Forge**
+   * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium, it has both Forge and Fabric builds. I personally use this over Sodium because it includes a better menu and some other additions
+   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium(Works with Embeddium on Fabric)
  * #### Fabric
-   * [Sodium](https://modrinth.com/mod/sodium) -- Optimises Clientside stuff(i.e more fps)
-   * [Sodium Extra](https://modrinth.com/mod/sodium-extra) -- Extra options for sodium
    * [Reeses Sodium Options](https://modrinth.com/mod/reeses-sodium-options)/ -- Allows you to access said options, Only required for Sodium as Embeddium integrates this mod already
    * [Lithium](https://modrinth.com/mod/lithium) -- Optimises Client/Serverside stuff
    * [Indium](https://modrinth.com/mod/indium) -- A mod for sodium that mostly just adds better compatibility, Built into Embeddium
    * [Iris Shaders](https://modrinth.com/mod/iris) -- Shader support. If you're not planning on using shaders, you can skip this
  * #### Neoforge/Forge
-   * [Embeddium](https://modrinth.com/mod/embeddium) -- A fork of Sodium. It *could* be faster than sodium but I haven't really tested. Listed again for parity ig
    * [Embeddium Extra](https://modrinth.com/mod/embeddium) -- Sodium Extra but for Embeddium
    * [Oculus](https://modrinth.com/mod/oculus) -- Iris but on Forge
    * ~~[Textrues Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options) -- Allows you to access the extra options. Forge alternative to Reeses Sodium Options~~ - This is now included in embeddium
@@ -189,9 +187,9 @@ Mods that help with performance. I'd recommend having all of these. This is the 
 # Extra Performance Stuff
 Mods that can help with performance but might have incompatibilities or whatever. These are mostly optional 
  * [Performance mods from someaddon on CurseForge](https://www.curseforge.com/members/someaddon/projects) -- As much as I'm trying to avoid linking to mods on CurseForge, someaddon has some amazing optimization mods for both client and server. I personally use these mods on my own modpacks as often as I can, they usually don't break anything.
- * [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, however it has incompatibilities with some mods since it does a lot for rendering. Although I haven't seen any mods have incompatibilities with this mod
- * [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this
- * [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff
+ * [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, supposedly it has incompatibilities with some mods since it does a lot for rendering. I personally haven't seen any mods have incompatibilities with this mod though
+ * [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this and I've had instances of this mod crashing modpacks
+ * [Krypton](https://modrinth.com/mod/krypton) -- Optimises networking stuff, has some incompatibilities with stuff like viafabric(i.e the game will outright crash telling you they're incompatible) 
  * [Dash Loader](https://modrinth.com/mod/dashloader) -- Makes the game load really really fast. However some mods are incompatible with this
  * [Noisium](https://modrinth.com/mod/noisium) -- Optimises world generation
  * [Distant Horizons](https://modrinth.com/mod/distanthorizons) -- Allows you to see far past your render distance without causing lag. However this mod only works with some setups and is very very buggy
