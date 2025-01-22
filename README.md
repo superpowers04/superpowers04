@@ -8,7 +8,8 @@
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
 
 > [!CAUTION]
-> <b>Due to recent events, anything beyond this point might not be accurate at the moment, If you're curious about something, please directly ask me about it.</b>
+> <b>Due to events being caused by a comic causing me to question a lot about myself, anything beyond this point might not be accurate at the moment, If you're curious about something, please directly ask me about it.</b><br>
+> <sub>* The comic is [Rain](https://comicfury.com/comicprofile.php?url=rain), it's a good comic you should read. You might want to read it across multiple days, not all in one 17-20 hour sitting like I did, else it'll hit you like a ton of bricks</sub>
 <br>
 <hr>
 
