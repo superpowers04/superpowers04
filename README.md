@@ -1,9 +1,17 @@
-# The about me for the funny Stephanie(MEEEEE  :3)
+# About me for Superpowers04
 [Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
 #### TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD and/or autism
  * She/her
+
+
 # Basic biography
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
+
+> [!CAUTION]
+> <b>Due to recent events, anything beyond this point might not be accurate at the moment, If you're curious about something, please directly ask me about it.</b>
+<br>
+<hr>
+
 
 > [!CAUTION]
 **If you're going to DM me, and talking about NSFW stuff bothers you or you're younger than 18, Please tell me.** <br>
