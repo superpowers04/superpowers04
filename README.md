@@ -35,7 +35,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * Interests: Programming, Drawing, Minecraft, NSFW content(hence the disclaimer above, please read it), ~~your mother~~
 
 > [!NOTE]
-> I have an OC also named Stephanie Purpurella, she is not representative of me. She was SUPPOSED to be but then I started changing things about her and she eventually stopped being a representation of me
+> I have an OC named Stephanie Purpurella, she is not representative of me. She was SUPPOSED to be but then I started changing things about her and she eventually stopped being a representation of me
 # The links to places I exist
 - [Discord](https://discordapp.com/users/267737465152864256)(Or my username is superpowers04. I am most active here)
 - [Tumblr](https://www.tumblr.com/superpowers04)/[Tumblr Blog](https://superpowers04.tumblr.com/)
