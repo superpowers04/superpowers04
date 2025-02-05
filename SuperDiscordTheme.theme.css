@@ -9,7 +9,7 @@
 */
 
 /* Custom Connecting To Discord text thing */
-.container_c791b2.fixClipping_efbae7{
+.container_c791b2 .fixClipping_efbae7{
 	flex: none !important;
 	left: 35% !important;
 	right: 35% !important;
@@ -103,7 +103,7 @@ background: var(--background-secondary-alt) !important;
 --background-selected: #D94757!important;
 --background-primary: #221b24 !important;
 --background-secondary:#1E181F !important;
---background-secondary-alt:#18061A !important;
+--background-secondary-alt:#1E181F !important;
 --background-tertiary:#1E181F !important;
 --channeltextarea-background:#302534 !important;
 --background-message-hover: #2A1B30  !important;
@@ -117,11 +117,6 @@ background: var(--background-secondary-alt) !important;
 --background-modifier-active:rgba(79,84,92,0.24) !important;
 --background-modifier-selected:rgba(79,84,92,0.32) !important;
 --background-modifier-accent:hsla(0,0%,100%,0.06) !important;
---background-mentioned:rgba(250,166,26,0.05) !important;
---background-mentioned-hover:rgba(250,166,26,0.08) !important;
---background-message-hover:rgba(4,4,5,0.07) !important;
---background-help-warning:rgba(250,166,26,0.1) !important;
---background-help-info:rgba(0,176,244,0.1) !important;
 --scrollbar-thin-thumb:#18061A !important;
 --scrollbar-thin-track:transparent !important;
 --scrollbar-auto-thumb:#18061A !important;
@@ -145,6 +140,9 @@ background: var(--background-secondary-alt) !important;
 
 --background-help-warning:#5D4A8E77 !important;
 --background-help-info:rgba(0,103,224,0.1) !important;
+
+--modal-horizontal-padding:0%;
+--modal-vertical-padding:0%;
 }
 
 
@@ -244,6 +242,7 @@ code{
 }
 
 :root, .theme-dark{
+
 	--header-secondary:#ccd7d4 !important;
 	--text-normal:#ccd7d4 !important;
 	--text-muted:#abb9b6 !important;
@@ -254,7 +253,7 @@ code{
 	--background-primary: #221b24 !important;
 	--background-secondary:#1E181F !important;
 	--menu-item-default-hover-bg: #5D4A8E !important;
-	--background-secondary-alt:#18061A !important;
+	--background-secondary-alt:#1E181F !important;
 	--background-tertiary:#1E181F !important;
 	--channeltextarea-background:#302534 !important;
 	--background-message-hover: #2A1B30  !important;
@@ -398,11 +397,22 @@ button[aria-label="User Settings"] > .content__10a0c {
 @keyframes messageappear {
 	0% {
 		opacity: 0%;
-		margin-left: 20%;
+		scale: 0;
 	}
 	100% {
 		opacity: 100%;
-		margin-left: 0%;
+		scale: inherit;
+	}
+}
+@keyframes click {
+	0% {
+		scale: 1;
+	}
+	50% {
+		scale: 0.9;
+	}
+	100% {
+		scale: 1;
 	}
 }
 
@@ -410,9 +420,11 @@ button[aria-label="User Settings"] > .content__10a0c {
 
 .message_faa96b, .cozy_fc8177, .group__3d4a0, .wrapper__2f4f7, .cozy_fc8177, .zalgo_c19a55
 ,.member_c8ffbb,.thin_d125d2,.fade_c8b5c7, .typing_faa96b{
-	animation-name: messageappear;
-	animation-duration: 0.4s;
+	scale:1;
+	transition-property: scale;
+	transition-duration: 1s;
 }
+
 /* Hover resize */
 a,
 button,
@@ -420,7 +432,6 @@ div{
 	transition-property: scale;
 	transition-duration: 100ms;
 }
-/* Hover resize */
 button:hover,
 .closeButton_b83a17:hover,
 .image__9adaf:hover,
