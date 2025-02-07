@@ -31,7 +31,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 * Age: Subtract May, 2005 from current date :3
 * Sexuality: Lesbian :3
 * Goal in life ig?: To have fun and attempt to make people's days better, I'm not the best at it and it's kinda cliche but I hope I'm atleast getting somewhere :3 
-* Relationship Status: Not interested in one
+* Relationship Status: Single and not really interested in one at the moment, Sorry
 * Interests: Programming, Drawing, Minecraft, NSFW content(hence the disclaimer above, please read it), ~~your mother~~
 
 > [!NOTE]
