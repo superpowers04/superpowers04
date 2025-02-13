@@ -63,9 +63,6 @@
 font-size: 12px;
 }
 
-code{
-background: var(--background-secondary-alt) !important;
-}
 .container_c791b2,.themed_c8b06d,.search__9d40d,.peopleList__5ec2f,.scroller__36d07,.list__07f91,.thin_d125d2,
 .scroller__36d07,.auto_c8b5c7{
     background: var(--background-secondary) !important;
@@ -102,9 +99,9 @@ background: var(--background-secondary-alt) !important;
 --text-selected: #ffffff!important;
 --background-selected: #D94757!important;
 --background-primary: #221b24 !important;
---background-secondary:#1E181F !important;
---background-secondary-alt:#1E181F !important;
---background-tertiary:#1E181F !important;
+--background-secondary:#1E181A !important;
+--background-secondary-alt:#1E181A !important;
+--background-tertiary:#0E000A !important;
 --channeltextarea-background:#302534 !important;
 --background-message-hover: #2A1B30  !important;
 
@@ -167,6 +164,9 @@ background: var(--background-secondary-alt) !important;
 code>* {
     font-family: Ubuntu Mono !important;
 }
+code{
+	background-color: #100010 !important;
+}
 
 
 
@@ -217,10 +217,6 @@ code>* {
 
 
 
-
-code{
-	background: var(--background-secondary-alt) !important;
-}
 .container_c791b2,.themed_c8b06d,.search__9d40d,.peopleList__5ec2f,.scroller__36d07,.list__07f91,.thin_d125d2,
 .scroller__36d07,.auto_c8b5c7{
     background: var(--background-secondary) !important;
@@ -399,9 +395,17 @@ button[aria-label="User Settings"] > .content__10a0c {
 		opacity: 0%;
 		scale: 0;
 	}
+	10% {
+		opacity: 0%;
+		scale: 0;
+	}
+	80% {
+		opacity: 100%;
+		scale: 1.05;
+	}
 	100% {
 		opacity: 100%;
-		scale: inherit;
+		scale: 1;
 	}
 }
 @keyframes click {
@@ -420,9 +424,8 @@ button[aria-label="User Settings"] > .content__10a0c {
 
 .message_faa96b, .cozy_fc8177, .group__3d4a0, .wrapper__2f4f7, .cozy_fc8177, .zalgo_c19a55
 ,.member_c8ffbb,.thin_d125d2,.fade_c8b5c7, .typing_faa96b{
-	scale:1;
-	transition-property: scale;
-	transition-duration: 1s;
+	animation-name: messageappear;
+	animation-duration: 0.5s;
 }
 
 /* Hover resize */

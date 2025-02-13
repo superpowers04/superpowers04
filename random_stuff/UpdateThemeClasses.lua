@@ -3,6 +3,9 @@
 	Uses https://raw.githubusercontent.com/itmesarah/classchanges/refs/heads/main/discordclasses.js to update a theme's classes
 
 ]]
+
+
+
 local debugPrint = print or function() end
 local arg = args or arg
 local themePath = arg[1]
