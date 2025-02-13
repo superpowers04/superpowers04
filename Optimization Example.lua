@@ -1,4 +1,8 @@
--- An example to how small optimizations can make a massive difference. Example by superpowers04
+--[[
+	A few examples for how seemingly small optimizations can make a massive difference. Examples by superpowers04
+	They're explained to the best of my knowledge of how lua works
+]]
+
 --  This example is specifically setup for Figura, but will apply to other lua implementations
 --  These optimizations personally brought me from a 2% total rendertime down to a 0.03% total rendertime
 
@@ -35,6 +39,7 @@ function events.render()
 		and ((animMoth.walking:isPlaying() or animMoth.sit:isPlaying() or animMoth.sitting:isPlaying() or animMoth.crouching:isPlaying() or animMoth.sprinting:isPlaying()))
 
 	-- If variable hasn't changed, return. We don't need to re-run setPriority every frame. This can make a MASSIVE difference in performance
+	--  This is called a guard clause, these usually should be faster than an if/else because you immediately return out of the function instead of lua having to jump to after the end of the if/else statement for no reason
 	if newBlend == maskBlending then return end
 	-- Set maskBlending to newBlend, without this, the check above would fail every time, removing it's purpose
 	maskBlending = newBlend
@@ -56,15 +61,16 @@ end
 
 
 -- Some small side notes, doing things like
-local stringVar = "meow"
-if (stringVar:find("w")) then
-	print(("%q is stringVar"):format(stringVar))
-end
--- Can be faster than 
 stringVar = "meow"
 if (string.find(stringVar,"w")) then
 	print(stringVar .. "is stringVar")
 end
+-- is actually slower than
+local stringVar = "meow"
+if (stringVar:find("w")) then
+	print(("%q is stringVar"):format(stringVar))
+end
+
 -- Assigning and accessing global variables is slower
 
 -- `string` has to go through every environment looking for a table named `string`
@@ -76,3 +82,17 @@ setmetatable("STRING_HERE",{_index=string})
 -- In LuaJ, it's not faster but most other lua implementations will probably be faster with string.format over string concatenation
 --  This is because I think lua creates a new string object for each addition to the concatenation, where string.format just uses sprintf from C
 --  "test" .. "test2" .. "test3" would create about 6 new strings
+
+
+-- If possible, try to cache results in lua instead of retrieving them from a non-lua object. For example
+part:setVisible(player:isSprinting() and player:isOnGround())
+print(part:getVisible())
+-- Lua is a very inefficient language for converting to and from variables unless the underlying lua implementation directly references the stack
+--  Usually functions have to convert values to and from lua, which can make things a bit slower.
+local visible = player:isSprinting() and player:isOnGround()
+part:setVisible(visible)
+print(visible)
+-- You went from checking (_ENV > part > setVisible()) AND (_G > print()) + (_ENV > part > getVisible())
+--  to (_ENV > visible = X), (_ENV > part > setVisible()) and (_G > print()) + (_ENV > visible)
+-- In this case, getVisible and setVisible have to convert values to and from lua, making local variables is a lot faster than conversion between luaj and lua
+-- Infact, a bunch of the optimization in the first example is just preventing leaving lua as much as you can
