@@ -1,6 +1,7 @@
 --[[
-	A few examples for how seemingly small optimizations can make a massive difference. Examples by superpowers04
-	They're explained to the best of my knowledge of how lua works
+	This is basically just a bunch of random things about lua by superpowers04. Mostly centered around optimization but also contains other information
+	Starting out with how small optimizations can make a massive difference
+	Everything is explained to the best of my knowledge of how lua works
 
 	I highly recommend looking at the Programming In Lua book, https://www.lua.org/pil/(https://www.lua.org/pil/contents.html is the online version)
 	It explains a lot of things about how lua works and you'll probably understand a lot of this document better
@@ -28,7 +29,7 @@ function events.render()
 end
 
 
--- The optimized version and explainations for why I did something:
+-- The optimized version and explainations for why I did things certain ways:
 
 -- Initialise the variable, we don't set it to anything because we need to set the priority still
 local maskBlending 
