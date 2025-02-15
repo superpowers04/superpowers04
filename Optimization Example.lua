@@ -1,13 +1,14 @@
 --[[
 	This is basically just a bunch of random things about lua by superpowers04. Mostly centered around optimization but also contains other information
-	Starting out with how small optimizations can make a massive difference
+	Why isn't this a markdown file? Because I'm lazy
 	Everything is explained to the best of my knowledge of how lua works
-
+	
 	I highly recommend looking at the Programming In Lua book, https://www.lua.org/pil/(https://www.lua.org/pil/contents.html is the online version)
 	It explains a lot of things about how lua works and you'll probably understand a lot of this document better
 ]]
+--	Starting out with how small optimizations can make a massive difference
 
---  This example is specifically setup for Figura, but will apply to other lua implementations
+--  This example is specifically setup for Figura and LuaJ, but will apply to other lua implementations
 --  These optimizations personally brought me from a 2% total rendertime down to a 0.03% total rendertime
 
 -- Original code courtesy of @jceratops on Discord
