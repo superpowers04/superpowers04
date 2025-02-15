@@ -1,6 +1,9 @@
 --[[
 	A few examples for how seemingly small optimizations can make a massive difference. Examples by superpowers04
 	They're explained to the best of my knowledge of how lua works
+
+	I highly recommend looking at the Programming In Lua book, https://www.lua.org/pil/(https://www.lua.org/pil/contents.html is the online version)
+	It explains a lot of things about how lua works and you'll probably understand a lot of this document better
 ]]
 
 --  This example is specifically setup for Figura, but will apply to other lua implementations
@@ -96,3 +99,48 @@ print(visible)
 --  to (_ENV > visible = X), (_ENV > part > setVisible()) and (_G > print()) + (_ENV > visible)
 -- In this case, getVisible and setVisible have to convert values to and from lua, making local variables is a lot faster than conversion between luaj and lua
 -- Infact, a bunch of the optimization in the first example is just preventing leaving lua as much as you can
+
+
+
+-- Here's an example of an optimization attempt that doesn't optimise anything
+local _tickEvent = events.tick
+_tickEvent:register(function()
+	host:setActionbar('hello')
+end)
+
+-- Now you're probably thinking "well this flies in the face of the entire file"
+-- It doesn't. In this case, we're only using _tickEvent once when the file is loaded. Localising a variable for one use just adds complexity
+-- This is basically as efficient as:
+local _tickEvent = nil
+events.tick:register(function()
+	host:setActionbar('hello')
+end)
+-- Here's another example actually that won't work
+local _tickEvent = events.tick
+_tickEvent = function()
+	host:setActionbar('hello')
+end
+-- Question, what is `events.tick =` actually doing that `_tickEvent =` doesn't? It's running __newindex from the metatable for `events`.
+-- As a quick rundown, tables have metatables. 
+--  Metatables can change how lua interacts with tables, for example:
+local tbl = {0}
+local metatable = { __newindex = print }
+setmetatable(tbl,metatable)
+tbl.name = 3 
+
+-- This will actually just print something like `table: 0x58baec99ead0	name	3` instead of setting `tbl`'s `name` index to `3`.
+--  You're actually running metatable.__newindex(tbl,"name",3), but because __newindex is just print, you're technically running print(tbl,"name",3)
+--  Basically, __newindex will allow you to change how creating new indexes in a table works
+-- So-
+events.tick = function()
+	host:setActionbar('hello')
+end
+-- Is actually running the __newindex function of event.tick's metatable. 
+--  In Figura this is bound to events.tick.register, so this is the same as running
+events.tick:register(function()
+	host:setActionbar('hello')
+end)
+
+
+-- Fun fact, metatables can also apply to the local environment and global environment. 
+--  So you could set the metatable of _ENV or _G to change how __index works and make it add to a different table or something
