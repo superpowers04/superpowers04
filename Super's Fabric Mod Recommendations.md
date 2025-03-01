@@ -52,7 +52,8 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Conflicts with the internet, and can cause issues with authentication
 	* I've personally had it mess up my network drivers since it installs a network driver to function
 	* Acts as a VPN
-	* See [E4MC](https://modrinth.com/mod/e4mc) or [playit.gg](https://playit.gg) for alternatives
+	* See [E4MC](https://modrinth.com/mod/e4mc), [playit.gg](https://playit.gg) or [RAdmin](https://www.radmin-vpn.com/) for alternatives
+        * Suffered a data breach, exposing millions of their users login information, and other information if present.
 * ### Literally any VPN
 	* VPNs have a history of messing up how Minecraft sends packets, this can actually get you banned from servers in some cases
 	* VPNs change how servers identify you by changing your IP, this could theroetically make you suffer a ban from the server detecting it or someone else getting IP banned and then you unluckily getting the IP that was banned
