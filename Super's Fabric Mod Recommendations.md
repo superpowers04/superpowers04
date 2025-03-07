@@ -104,7 +104,7 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	If you really want to play the game, I'd really recommend purchasing it if you can. If you really can't buy the game, look towards [luanti(Formerly Minetest)](https://www.luanti.org) or maybe use an open source launcher if you really must. Just be careful and **please don't expect support with pirated or cracked copies of the game**, refer to all of the reasons above for why MCCS, Modded Minecraft and other Discord servers or communities CANNOT help with these launchers even if it wasn't against their rules(Which it is).
 * ### Curseforge
 	* Curseforge has had issues with malware, weird practices(allowed illegal copies of Iris/Sodium for a while) and has been superseded by Modrinth in multiple ways. 
-	* Curseforge uses anti-competitive behaviors like making it more difficult to install some mods on other launchers by forcing you to manually download the mods. 
+	* Curseforge uses anti-competitive behaviors like making it more difficult to install some mods on other launchers by forcing you to manually download the mods, which forces you to wait 10 seconds and such
 	* I'd **only** recommend using curseforge if you can't find a mod on Modrinth or MCArchive, for older versions of the game or if you have to. 
 	* \* If you do use curseforge, I'd recommend downloading the jar for the mod directly or using Prism and recommend against using their launcher
 * ### OptiFine(On 1.14 and above\*)
@@ -137,8 +137,8 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 * [Stop Mod Reposts (Browser extension)](https://stopmodreposts.org) -- While not currently being maintained, this is an extension that warns you if you're going on a page known for reposting mods. It also contains ratings for how malicious some pages are 
 
 # Why I recommend [Prism Launcher](https://prismlauncher.org) over other launchers
-* [Prism Launcher](https://prismlauncher.org) is programmed in C++ and uses a very simple but powerful UI. This means less of your computers resources go towards rendering an entire webpage
-* [Prism Launcher](https://prismlauncher.org) isn't locked to a specific mod distribution platform, you can use modpacks from several sources, and install mods directly from both Modrinth and if you need, Curseforge without needing to open a webpage
+* [Prism Launcher](https://prismlauncher.org) is programmed in C++ and uses a very simple but powerful UI. This means less of your computers resources go towards rendering an entire webpage(Yes, Modrinth, Normal Minecraft launcher, and Curseforge all use Electron, which is basically Chrome/Chromium with a bunch of extensions)
+* [Prism Launcher](https://prismlauncher.org) isn't locked to a specific mod distribution platform, you can use modpacks from several sources, and install mods directly from both Modrinth and if you need, Curseforge without needing to open a webpage*(if the mod doesn't block downloads from external launchers- yes this is a thing that CurseForge does)
 * [Prism Launcher](https://prismlauncher.org) has a function over form UI. It's not pretty and might be a bit confusing at first but once you get used to it, it's really fast and really nice to use
 * [Prism Launcher](https://prismlauncher.org) can be used portably
 * [Prism Launcher](https://prismlauncher.org) is cross platform, You can use it on arm systems or even use it's official flatpak package to run it on a Steam Deck
