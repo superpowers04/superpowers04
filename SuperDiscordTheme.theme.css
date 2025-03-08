@@ -253,7 +253,7 @@ code{
 	--background-tertiary:#1E181F !important;
 	--channeltextarea-background:#302534 !important;
 	--background-message-hover: #2A1B30  !important;
-
+	--modal-width-small: inherit !important;
 
 	--background-accent:#22222e !important;
 	--background-floating:#18061A !important;

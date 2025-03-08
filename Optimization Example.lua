@@ -6,7 +6,7 @@
 	I highly recommend looking at the Programming In Lua book, https://www.lua.org/pil/(https://www.lua.org/pil/contents.html is the online version)
 	It explains a lot of things about how lua works and you'll probably understand a lot of this document better
 ]]
---	Starting out with how small optimizations can make a massive difference
+-- Starting out with how seemingly small optimizations can make a massive difference
 
 --  This example is specifically setup for Figura and LuaJ, but will apply to other lua implementations
 --  These optimizations personally brought me from a 2% total rendertime down to a 0.03% total rendertime
@@ -65,7 +65,7 @@ end
 
 
 
--- Some small side notes, doing things like
+-- Doing things like
 stringVar = "meow"
 if (string.find(stringVar,"w")) then
 	print(stringVar .. "is stringVar")
@@ -92,7 +92,7 @@ setmetatable("STRING_HERE",{_index=string})
 -- If possible, try to cache results in lua instead of retrieving them from a non-lua object. For example
 part:setVisible(player:isSprinting() and player:isOnGround())
 print(part:getVisible())
--- Lua is a very inefficient language for converting to and from variables unless the underlying lua implementation directly references the stack
+-- Lua is a very inefficient language for converting to and from variables outside of lua unless the underlying lua implementation directly references the stack
 --  Usually functions have to convert values to and from lua, which can make things a bit slower.
 local visible = player:isSprinting() and player:isOnGround()
 part:setVisible(visible)
@@ -146,3 +146,4 @@ end)
 
 -- Fun fact, metatables can also apply to the local environment and global environment. 
 --  So you could set the metatable of _ENV or _G to change how __index works and make it add to a different table or something
+
