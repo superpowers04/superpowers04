@@ -150,7 +150,8 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 I'd go by what you're expecting out of it
 * If you're on 1.13.2 or below, you probably want Forge since Fabric has far less support on older versions
 * If you're going for performance, use Fabric, the most performance mods are available for it and it's more lightweight and isn't as strict on the server having the same mods as the player usually
-* If you want a ton of content mods, use Forge. Forge usually doesn't get as many performance mods and doesn't always run as well but it has plenty of content mods
+* If you want a ton of content mods, use Forge or NeoForge on 1.21 and above. Forge usually doesn't get as many performance mods and doesn't always run as well but it has plenty of content mods
+
 
 Ultimately it comes down to which mods you want to use. Some mods only work on Fabric, some on Forge and some of them work using Syntra connector on Forge.
 
