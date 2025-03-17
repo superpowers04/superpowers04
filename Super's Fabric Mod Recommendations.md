@@ -64,7 +64,7 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Things like paid cosmetics are against [Minecraft's End User License Agreement](https://www.minecraft.net/en-us/eula). Refer to ```Any Mods you create for Minecraft: Java Edition from scratch belong to you (including pre-run Mods and in-memory Mods) and you can do whatever you want with them, as long as you don't sell them for money / try to make money from them and so long as you don’t distribute Modded Versions of the game```. Although from what I can tell, they aren't in violation of the [Minecraft Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines), so from my understanding, they technically aren't doing anything wrong but I'm going to keep this here anyways :3
 	* This includes OptiFine, Essential, Badlion, Feather and Lunar from what I know.
 	* I'm honestly not sure why these mods aren't taken down. My assumption is either too much of a PR disaster with some of these, or not worth it. Interestingly, Mojang actually did send a cease and desist to [Physics mod](https://minecraftphysicsmod.com) for having a patreon paid version so I'm not completely sure
-	* \* Refer to Figura below for *free* cosmetic alternatives
+	* \* Refer to Figura or CPM below for *free* cosmetic alternatives
 * ### Most "clients" and many launchers
 	* Some clients and/or launchers will directly login to your account instead of asking for permission using a oAuth token. This means the client has FULL access to your Microsoft account. You can tell if this happens by if DOESN'T ask for a code or open your web browser to sign in. ***If the client you are using requires direct login to your microsoft account, Immediately uninstall the launcher and change your Microsoft Account Password as the client has FULL ACCESS TO YOUR MICROSOFT ACCOUNT AND A MINECRAFT CLIENT OR LAUNCHER SHOULD NEVER NEED THIS*** 
 	* Some clients will ask for administator or superuser access, the vanilla game and mods should *never* require administrator access after installation.
@@ -120,8 +120,8 @@ Terms often used when refering to Minecraft and/or Modding Minecraft
 	* Most mods that require this will force install it into your Minecraft instance without any permission, in my experience
 	* In my experience every time I've used it, it has installed itself to a seperate folder and you have to go hunting in your .minecraft folder
 	* It adds expensive cosmetics, refer to [Paid Custom Content](#paid-custom-content)
-	* \* Refer to Figura below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
-* ### The default launcher
+	* \* Refer to Figura or CPM below for a *free* cosmetics alternative and refer to e4mc below for hosting alternative
+* ### The default launcher 
 	* It might seem counter-intuitive but the base launcher is honestly pretty unstable and isn't the best for modding
 
 # Some general recommendations
