@@ -16,7 +16,7 @@ I am currently a Minecraft Community Support Helper that is probably inactive a 
 
 
 > [!CAUTION]
-> **If you're going to DM me, PLEASE let me know if you're under 18 or if NSFW content does/doesn't bother you.**
+> **If you're going to DM me, PLEASE let me know if you're over 18 and if so, whether NSFW content does or doesn't bother you.**
 * If I say something that bothers you, Please let me know :>
 * If you have a question or need help with something, Please send me the question instead of saying that you need help or pinging me
   - It makes response times from me faster because I can immediately respond to you instead of having to respond and then wait for you to type out your message 
