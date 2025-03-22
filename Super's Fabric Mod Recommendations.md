@@ -187,7 +187,14 @@ Mods that help with performance. I'd recommend having all of these. This is the 
 
 # Extra Performance Stuff
 Mods that can help with performance but might have incompatibilities or whatever. These are mostly optional 
- * [Performance mods from someaddon on CurseForge](https://www.curseforge.com/members/someaddon/projects) -- As much as I'm trying to avoid linking to mods on CurseForge, someaddon has some amazing optimization mods for both client and server. I personally use these mods on my own modpacks as often as I can, they usually don't break anything.
+ * [Performance mods from someaddon on CurseForge](https://www.curseforge.com/members/someaddon/projects) -- As much as I'm trying to avoid linking to mods on CurseForge, someaddon has some amazing optimization mods for both client and server. I personally use these mods on my own modpacks as often as I can, they usually don't break anything. Below are the ones I use all of the time
+	* [Fast Async World Save[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/fast-async-world-save-forge-fabric)
+	* [Smooth Chunk Save[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save)
+	* [Structure Essentials[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/structure-essentials-forge-fabric)
+	* [Connectivity[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/connectivity)
+	* [Better Chunk Loading[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric)
+	* [Recipe Essentials[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/recipe-essentials-forge-fabric)
+	* Better Fps - Render Distance [FORGE](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) / [FABRIC](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance-fabric)
  * [Immediately Fast](https://modrinth.com/mod/immediatelyfast) -- This mod can help with FPS, supposedly it has incompatibilities with some mods since it does a lot for rendering. I personally haven't seen any mods have incompatibilities with this mod though
  * [Ferrite Core](https://modrinth.com/mod/ferrite-core) -- Memory Usage optimisations. I've seen a few mods that don't work with this and I've had instances of this mod crashing modpacks
  * [Krypton](https://modrinth.com/mod/krypton)(Fabric) -- Optimises networking stuff, has some incompatibilities with stuff like viafabric(i.e the game will outright crash telling you they're incompatible) 
