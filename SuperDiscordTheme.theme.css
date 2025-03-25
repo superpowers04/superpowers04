@@ -101,6 +101,7 @@ font-size: 12px;
 --background-primary: #221b24 !important;
 --background-secondary:#1E181A !important;
 --background-secondary-alt:#1E181A !important;
+
 --background-tertiary:#0E000A !important;
 --channeltextarea-background:#302534 !important;
 --background-message-hover: #2A1B30  !important;
@@ -177,20 +178,11 @@ code{
 
 
 
-.jumpToPresentBar__0f481, .bar_eff079 {
-    top: 0;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 13px;
-    border-top-left-radius: 0px;
+.jumpToPresentBar__0f481{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
     border-bottom-left-radius: 13px;
-    bottom: 99% !important;
-
-}
-.jumpToPresentBar__0f481:hover{
-    border-top-right-radius: 0px;
     border-bottom-right-radius: 13px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 13px;
 }
 
 .newMessagesBar__0f481 {
@@ -206,7 +198,7 @@ code{
     border-bottom-left-radius: 0px;
 }
 
-.chat_a44415 .jump__5126c {
+.jumpToPresentBar__0f48{
     width: 200px;
     left: 90%;
     text-align: center;
@@ -246,8 +238,10 @@ code{
 	--text-deleted: #f40 !important;
 	--text-selected: #ffffff !important;
 	--background-selected: #5D4A8E !important;
+	--background-highest: #443b48 !important;
 	--background-primary: #221b24 !important;
 	--background-secondary:#1E181F !important;
+	--background-highest: #443b48 !important;
 	--menu-item-default-hover-bg: #5D4A8E !important;
 	--background-secondary-alt:#1E181F !important;
 	--background-tertiary:#1e101F !important;
@@ -259,9 +253,9 @@ code{
 	--background-floating:#18061A !important;
 	--background-mobile-primary:#221b24 !important;
 	--background-mobile-secondary:#1E181F !important;
-	--background-modifier-hover:rgba(79,84,92,0.1) !important;
-	--background-modifier-active:rgba(79,84,92,0.24) !important;
-	--background-modifier-selected:rgba(79,84,92,0.32) !important;
+	--background-modifier-hover:rgba(84,79,92,0.1) !important;
+	--background-modifier-active:rgba(84,79,92,0.24) !important;
+	--background-modifier-selected:rgba(84,79,92,0.32) !important;
 	--background-modifier-accent:hsla(0,0%,100%,0.06) !important;
 	--scrollbar-thin-thumb:#18061A !important;
 	--scrollbar-thin-track:transparent !important;
@@ -291,15 +285,16 @@ code{
 :root{
     --background-base-lowest:var(--background-floating) !important;
     --background-base:var(--background-primary) !important;
+    --background-surface-highest:var(--background-primary) !important;
+
     --background-base-low:var(--background-primary) !important;
     --background-base-lower:var(--background-secondary) !important;
     --card-primary-bg:var(--background-primary) !important;
     --chat-background-default:var(--channeltextarea-background) !important;
 }
 .messageListItem__5126c:hover{
-    background-color: var(--background-message-hover);
+    background-color: var(--background-modifier-hover);
 }
-
 
 
 //META{"name":"Reactive Icons","description":"Makes some icons react to you hovering over them, and colors the deafen/mute icons","author":"Superpowers04","version":"0.1","website":"https://github.com/Superpowers04","source":"https://github.com/superpowers04/BD-plugins/blob/master/reactiveicons.theme_f8dc05.css"}*//{}
