@@ -245,7 +245,7 @@ code{
 	--menu-item-default-hover-bg: #5D4A8E !important;
 	--background-secondary-alt:#1E181F !important;
 	--background-tertiary:#1e101F !important;
-	--channeltextarea-background:#302534 !important;
+	--background-surface-higher:#302534 !important;
 	--background-message-hover: #2A1B30  !important;
 	--modal-width-small: inherit !important;
 
@@ -290,6 +290,7 @@ code{
     --background-base-low:var(--background-primary) !important;
     --background-base-lower:var(--background-secondary) !important;
     --card-primary-bg:var(--background-primary) !important;
+    --channeltextarea-background:var(--background-surface-higher) !important;
     --chat-background-default:var(--channeltextarea-background) !important;
 }
 .messageListItem__5126c:hover{
