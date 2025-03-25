@@ -619,3 +619,15 @@ a[href*="://steampowered.com"]:hover,a[href*="://gamebanana.com"]:hover,a[href*=
 .listItems_affa7e{
 	display:flex;
 }*/
+
+
+/* New Discord UI */
+button[aria-label='Send a gift']{
+    display:none;
+}
+
+
+.visual-refresh .base_c48ade{
+    /* display:block; */
+    grid-template-rows: [top] 3% [titleBarEnd] min-content [noticeEnd] 1fr [end];
+}
