@@ -106,7 +106,7 @@ font-size: 12px;
 --background-message-hover: #2A1B30  !important;
 
 
---background-accent:#22222e !important;
+--background-accent:#3d333d !important;
 --background-floating:#1E181F !important;
 --background-mobile-primary:#221b24 !important;
 --background-mobile-secondary:#1E181F !important;
@@ -239,9 +239,9 @@ code{
 
 :root, .theme-dark{
 
-	--header-secondary:#ccd7d4 !important;
-	--text-normal:#ccd7d4 !important;
-	--text-muted:#abb9b6 !important;
+	--header-secondary:#d7ccd4 !important;
+	--text-normal:#d4ccd4 !important;
+	--text-muted:#b9abb6 !important;
 	--text-link:#7D4A8E !important;
 	--text-deleted: #f40 !important;
 	--text-selected: #ffffff !important;
@@ -250,12 +250,12 @@ code{
 	--background-secondary:#1E181F !important;
 	--menu-item-default-hover-bg: #5D4A8E !important;
 	--background-secondary-alt:#1E181F !important;
-	--background-tertiary:#1E181F !important;
+	--background-tertiary:#1e101F !important;
 	--channeltextarea-background:#302534 !important;
 	--background-message-hover: #2A1B30  !important;
 	--modal-width-small: inherit !important;
 
-	--background-accent:#22222e !important;
+	--background-accent:#3d273d !important;
 	--background-floating:#18061A !important;
 	--background-mobile-primary:#221b24 !important;
 	--background-mobile-secondary:#1E181F !important;
@@ -288,8 +288,17 @@ code{
 	--background-help-info:rgba(0,103,224,0.1) !important;
 }
 
-
-
+:root{
+    --background-base-lowest:var(--background-floating) !important;
+    --background-base:var(--background-primary) !important;
+    --background-base-low:var(--background-primary) !important;
+    --background-base-lower:var(--background-secondary) !important;
+    --card-primary-bg:var(--background-primary) !important;
+    --chat-background-default:var(--channeltextarea-background) !important;
+}
+.messageListItem__5126c:hover{
+    background-color: var(--background-message-hover);
+}
 
 
 
