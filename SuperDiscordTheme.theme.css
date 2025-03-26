@@ -632,7 +632,11 @@ button[aria-label='Send a gift']{
 }
 
 
-.visual-refresh .base_c48ade{
-    /* display:block; */
-    grid-template-rows: [top] 3% [titleBarEnd] min-content [noticeEnd] 1fr [end];
+:root{
+    --top-bar-size:2%;
+}
+
+.visual-refresh {
+    --custom-app-top-bar-height: var(--top-bar-size);
+    grid-template-rows: [top] var(--top-bar-size) [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
