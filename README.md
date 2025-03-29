@@ -1,5 +1,5 @@
 # About me for Superpowers04
-[Some recommendations and warnings for Modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
+[A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
 #### TL;DR: I am funni 19 year old transfem/translesbian/transbean who likes coding, drawing, video games and probably has ADHD and/or autism
  * She/her
 
