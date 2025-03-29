@@ -640,3 +640,21 @@ button[aria-label='Send a gift']{
     --custom-app-top-bar-height: var(--top-bar-size);
     grid-template-rows: [top] var(--top-bar-size) [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
+.threadSuggestionBar__841c8:hover > :last-child {
+
+    text-decoration: underline;
+}
+.threadSuggestionBar__841c8:hover > * {
+    transition: 0.2s;
+    font-size: 90%;
+}
+.threadSuggestionBar__841c8 > *{
+    transition: 0.1s;
+    align-content: center;
+    font-size: 50%;
+}
+
+.mentionButton__841c8:hover{
+    text-decoration: underline;
+
+}
