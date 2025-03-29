@@ -1,4 +1,4 @@
-# Super's Minecraft recommendation list thing
+# Super's Minecraft list thing
 ***Note this doc is not affiliated, monitored, or otherwise endorsed by MinecraftHopper, Minecraft Community Support, Prism Launcher, Modrinth, Fabric, Forge, or anyone else. Go to superpowers04 for any questions, support or corrections related to it***
 
 This is just a bunch of personal recommendations, general information, and mod lists for Minecraft that I thought would be useful to have in a doc. so I can easily link to it ~~without retyping why someone shouldn't use Lunar Client every time they ask for help with it~~<br>
@@ -12,37 +12,42 @@ If you want to jump to the recommended mods, you can [click here](#requiredfabri
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
 # Term Glossary
-Terms often used when refering to Minecraft and/or Modding Minecraft
+Terms often used when refering to Minecraft and/or Modding Minecraft. Many of these explanations are simplified. Most of the links in this section will link to their relevant Wiki article on Wikipedia, or Minecraft.wiki for if you need more information.
 * [Minecraft](https://minecraft.wiki/w/Minecraft) - The game this page is about. Unless specified, I'm usually refering to Minecraft: Java Edition
 * [Mojang](https://en.wikipedia.org/wiki/Mojang) - The company that owns and develops Minecraft
 * [Microsoft](https://en.wikipedia.org/wiki/Microsoft) - The parent company of Mojang. Note Microsoft is NOT Mojang.
 * [Java Edition](https://minecraft.wiki/w/Java_edition) - The Original Minecraft, Minecraft for Windows, MacOS and Linux, made using Java. Unless specified, I'm usually refering to Minecraft: Java Edition
 * [Java](https://en.wikipedia.org/wiki/Java) - The programming language used for Minecraft Java Edition.
 * [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) - A program/Virtual Machine that runs Java bytecode, which in turn runs Minecraft: Java Edition.
-* .jar - A Java Archive, basically a special zip used by Java that usually contains code or assets
+* .jar - A Java Archive, basically a "special" zip used by Java that usually contains code or assets.
 * [Bedrock Edition](https://minecraft.wiki/w/Bedrock_edition) - Minecraft's cross platform release. Has a bunch of differences from Java Edition. Refer to [Minecraft Wiki's parity list](https://minecraft.wiki/w/Official_pages/Parity_issue_list) for a compilation of ALL of the changes
 	* [Behavior Pack](https://minecraft.wiki/w/Behavior_Pack) - Sorta like Minecraft Data packs, I think. I don't play Bedrock Edition so I don't entirely know. These do NOT exist on Java Edition
 	* [Addon](https://minecraft.wiki/w/Addon) - Kinda like Mods, I think. I don't play Bedrock Edition so I don't entirely know. These do NOT exist on Java Edition
 
-* [Launcher](https://minecraft.wiki/w/Minecraft_Launcher) - Refers to the program used to launch the game, Minecraft requires a launcher because some things need to be setup before the game can run
+* [Launcher](https://minecraft.wiki/w/Minecraft_Launcher) - Refers to the program used to launch the game, Minecraft requires a launcher because it needs a lot of maintenence, 
 * [Client](https://minecraft.wiki/w/Client) - The actual program you interface with to play the game. Basically it handles the GUI, displaying mobs, players, blocks, etc on the screen, and stuff like that.
 * [Server](https://minecraft.wiki/w/Server) - The program that's running the world you're playing on. Handles things like breaking/placing blocks, movement, mob activity, etc
-	* Past Minecraft Release 1.3.1, You will always be playing on a server, even in SinglePlayer.
+	* Past Minecraft Release 1.3.1, You will always be playing on a server. When in SinglePlayer, Minecraft will open an Internal Server and join it. This is what allows you to play using [LAN](https://minecraft.wiki/w/Multiplayer#LAN_connections)
+	* [LAN](https://minecraft.wiki/w/Multiplayer#LAN_connections) - Local Area Network refers to playing with other people on the same home internet, or together via an ethernet hub. Note that in many cases a LAN server is usually just a server that isn't port forwarded(For Minecraft atleast)
+	* [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding) - Port fowarding basically tells your router to redirect any communications on a port(like 25565) to a specified IP
+	* [IP/IP Address](https://en.wikipedia.org/wiki/IP_address) - An address to access your computer from like 192.168.0.106. [Many IP Addresses are reserved for specific use cases.](https://en.wikipedia.org/wiki/Reserved_IP_addresses). Relevant to Minecraft, 10.0.0.0–10.63.255.255 and 192.168.0.0–192.168.255.255 are usually used for LAN, 10.0.X.1/192.168.X.1 are usually used by routers, and 127.0.0.0-127.255.255.255 are reserved for loopback/localhost.  Minecraft mostly only uses [IPv4](https://en.wikipedia.org/wiki/IPv4). IPv6 IP Addresses will usually work but are rarely used
+	
 * [Resource Pack](https://minecraft.wiki/w/Resource_Pack) - A file or folder that edit's the clients resources. Usually replaces things like textures, names, models and sounds.
 	* [Texture Pack](https://minecraft.wiki/w/Texture_pack) - Outdated term that usually refers to a resource pack nowadays, Minecraft stopped using the term Texture Packs around 1.5
 * [.minecraft](https://minecraft.wiki/w/.minecraft) - Refers to the folder where the game's files are located.<br>
 	Using the default Launcher, these are located under 
-	* `%Appdata%/roaming/.minecraft` for Windows
+	* `%appdata%/roaming/.minecraft` for Windows
 	* `~/Library/Application Support/minecraft` for MacOS
 	* `~/.minecraft` for Linux
 	Other launchers will use different locations for your .minecraft, for example, Prism's portable install will store game files under Prism/Instances/INSTANCE/.minecraft
 * Instance - A setup for Minecraft, usually specifies the location of the game's .minecraft, what ModLoader to use, it's JVM arguments, etc
 * [Modloader](https://minecraft.wiki/w/Modloader) - A modification to the game's jar file that allows the game to load mods. Usually from .minecraft/mods
-* [Mod](https://minecraft.wiki/w/Mods) - A file(usually a jar) that gets loaded by a ModLoader to edit or add to the game. Mods usually edit the game's code.
+* [Mod](https://minecraft.wiki/w/Mods) - A file(usually a jar) that gets loaded by a ModLoader to edit or add to the game. Mods usually edit the game's code, provide a custom datapack, assets and more.
 * [Shaders/ShaderPack](https://minecraft.wiki/w/Shader) - A zip that usually adds effects to Minecraft like better shadows or reflections. Requires a mod that provides support for Shaders like Iris or Oculus
 * [Forge](https://minecraft.wiki/w/Mods/Forge) - A Minecraft Modloader, commonly used for larger content mods and/or versions below 1.13.
+* [NeoForge](https://neoforged.net) - A Minecraft Modloader based off of Forge, commonly used for larger content mods on versions newer than 1.20.2.
 * [Fabric](https://minecraft.wiki/w/Mods/Fabric) - A Minecraft Modloader, commonly used for smaller mods and/or versions above 1.13.
-
+* [OptiFine](https://antifandom.com/ftb/wiki/OptiFine) - The old go-to mod for performance. OptiFine has been mostly been replaced by stuff like Sodium. [Refer to the OptiFine part of the section below for why I and much of the community recommend against OptiFine for newer versions of Minecraft](#optifineon-114-and-above)
 
 # Recommendations on what to **avoid** using and why
 * ### Most minecraft mod downloading sites
