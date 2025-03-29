@@ -1,4 +1,6 @@
 # Super's Minecraft list thing
+[For a proper wiki with a better UI, click here](https://github.com/superpowers04/superpowers04/wiki/MC-Info)
+
 ***Note this doc is not affiliated, monitored, or otherwise endorsed by MinecraftHopper, Minecraft Community Support, Prism Launcher, Modrinth, Fabric, Forge, or anyone else. Go to superpowers04 for any questions, support or corrections related to it***
 
 This is just a bunch of personal recommendations, general information, and mod lists for Minecraft that I thought would be useful to have in a doc. so I can easily link to it ~~without retyping why someone shouldn't use Lunar Client every time they ask for help with it~~<br>
@@ -6,8 +8,6 @@ I really recommend you do research yourself before installing anything listed he
 > [!CAUTION]
 > **Do not ever blindly follow anything you see online as they might provide false information or in the case of a lot of Youtube videos, not know what they're doing and give you instructions that edit files or do other things you really should not do**<br>
 > <sub>I've seen far too many videos edit the files of mods or the game for no reason. If possible look for a *recent* text tutorial for something instead of a Youtube video from 2011 that's filmed using unregistered hypercam on a Windows XP machine</sub>
-
-This file is only named `Super's Fabric Mod Recommendations.md` to prevent older links to this doc from breaking
 If you want to jump to the recommended mods, you can [click here](#requiredfabric)
 
 **Using [Prism](https://prismlauncher.org) or [Modrinth Launcher](https://modrinth.com/app) is recommended.**
