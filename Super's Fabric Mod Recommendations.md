@@ -1,0 +1,1 @@
+Moved to [Supers Minecraft Modding Documentation and Lists.md](https://github.com/superpowers04/superpowers04/blob/main/Supers Minecraft Modding Documentation and Lists.md)
