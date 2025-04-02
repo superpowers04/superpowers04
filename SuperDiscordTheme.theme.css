@@ -2,90 +2,15 @@
  * @name Super's badly made theme
  * @description Super's theme
  * @author superpowers04
- * @version 0.1
+ * @version 0.2
  * @website https://github.com/superpowers04/superpowers04
  * @source https://raw.githubusercontent.com/superpowers04/superpowers04/refs/heads/main/SuperDiscordTheme.theme_f8dc05.css
  * @authorId 267737465152864256
 */
 
-/* Custom Connecting To Discord text thing */
-.container_c791b2 .fixClipping_efbae7{
-	flex: none !important;
-	left: 35% !important;
-	right: 35% !important;
-	bottom: 90% !important;
-	background-color: var(--background-primary) !important;
-	padding-bottom: 0% !important;
-	border: 1px !important;
-	border-color: var(--background-secondary-alt) !important;
-	border-style: solid !important;
-	height: 10% !important;
-	padding:1% !important;
-	border-bottom-left-radius: 10px !important;
-	border-bottom-right-radius: 10px !important;
-}
-.container_c791b2 > div > video,.container_c791b2>a:nth-child(2){
-	display:none;
-}
-/*.tip__8683b{
-	display:none;
-}*/
-/*.tipTitle_a2f514{display: none;}*/
-.text__66e7e>*{display:none;}
-.text__66e7e,.text__66e7e:after{
-	content:"Connecting to Discord servers...";
-	margin-top: auto;
-	color:white;
-	margin-bottom:0%;
-}
-.problems_a2f514 > div > a:first-child{
-	position:absolute;
-	left:10%;
-
-}
-.problems_a2f514 > div > a{
-	position:absolute;
-	right:10%;
-
-}
-.problemsText_a2f514:before{
-	content:"h";
-}
-.problemsText_a2f514{
-	display:none;
-}
-
-
-.channel__972a0{
-    position: center;
-}
-.repliedMessage_c19a55:hover{
-font-size: 12px;
-}
-
-.container_c791b2,.themed_c8b06d,.search__9d40d,.peopleList__5ec2f,.scroller__36d07,.list__07f91,.thin_d125d2,
-.scroller__36d07,.auto_c8b5c7{
-    background: var(--background-secondary) !important;
-}
-
-.ml2-deleted .markup__75297, .ml2-deleted .markup__75297 .hljs, .ml2-deleted .container_c791b2 *{
-    color: var(--text-deleted) !important;
-}
 *::selection{
     color: var(--text-selected) !important;
     background-color: var(--background-selected) !important;
-}
-.auto_c8b5c7, .auto_c8b5c7{
-    background: var(--channeltextarea-background) !important;
-}
- .selected_c791b2{
-    background: var(--background-mentioned) !important;
-}
-.categoryHeader_d1405b{
-    background: var(--background-secondary) !important;
-}
-.roleName__5c799{
-	color: var(--text-normal);
 }
 
 /* Actual theme start */
