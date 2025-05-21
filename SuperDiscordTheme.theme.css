@@ -251,6 +251,7 @@ code{
 button[aria-label="Send a gift"], a[href="/shop"],a[href="/store"], #user-context-call,
 #user-context-call,#user-context-invite-to-server,
 div[aria-label="Start Video Call"],
+button[aria-label='Send a gift'],button[aria-label="Apps"]
 #discord-nitro-tab>div>.giftCard_a45ed3,#discord-nitro-tab>div>.containerWithoutGlow_a61c56,#discord-nitro-tab>div>.tierCard_a45ed3{
     display: none;
 	height: 0;
@@ -550,11 +551,8 @@ a[href*="://steampowered.com"]:hover,a[href*="://gamebanana.com"]:hover,a[href*=
 	display:flex;
 }*/
 
-
 /* New Discord UI */
-button[aria-label='Send a gift'],button[aria-label="Apps"]{
-    display:none;
-}
+
 
 
 :root{
@@ -581,5 +579,4 @@ button[aria-label='Send a gift'],button[aria-label="Apps"]{
 
 .mentionButton__841c8:hover{
     text-decoration: underline;
-
 }
