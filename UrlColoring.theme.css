@@ -1,0 +1,136 @@
+/**
+ * @name Super's url coloring
+ * @description Really basic URL coloring CSS. Should work anywhere
+ * @author superpowers04
+ * @version 0.2
+ * @website https://github.com/superpowers04/superpowers04
+ * @source https://raw.githubusercontent.com/superpowers04/superpowers04/refs/heads/main/UrlColoring.theme.css
+ * @authorId 267737465152864256
+*/
+
+
+/*URL coloring*/
+
+a[href^="https://"]
+	{color: #008800;}
+a[href^="http://"]
+	{color: #da0000;}
+a[href*="//discord.com"],a[href*="//discordapp.com"],a[href*=".discord.com/"],a[href^="dis.gd/"],a[href*="discord.gg/"]
+	{color: #738bd7;}
+a[href*="minecraft.net"], a[href*="minecrafthopper.net"] 
+	{color: #008542;}
+a[href*="nvidia.com"] 
+	{color: #73b601;}
+a[href*="archlinux.org"] 
+	{color: #1793d1;}
+a[href*="intel.com"] 
+	{color: #0071c5;}
+a[href*="minecraft.game_cc46f0.com"],a[href*="instagram.com"]
+	{color: #6c4d34;}
+a[href*="imgur.com"] 
+	{color: #87c90f;}
+a[href*="tiktok"] 
+	{color: #00f2eb;}
+a[href*="youtube.com"],a[href*="youtu.be"] 
+	{color: #ff0000;}
+a[href*="mojang.com"] 
+	{color: #f0454f;}
+a[href*="amd.com"] 
+	{color: #880000;}
+a[href*="roblox.com"] 
+	{color: #c52314;}
+a[href*="amazon.com"] 
+	{color: #b67d17;}
+a[href*="wikipedia.org"]
+	{color: #eee;}
+a[href*="github.com"],a[href*="github.io"] 
+	{color: #ee9;}
+a[href*="linktr.ee"] 
+	{color: #3BAC50;}
+a[href*="xbox.com"] 
+	{color: #81bc06;}
+a[href*="curseforge.com"] 
+	{color: #f16436;}
+a[href*="modrinth.com"] 
+	{color: #1bd96a;}
+a[href*="apple.com"] 
+	{color: #d7d7d7;}
+a[href*="ubuntu.com"] 
+	{color: #e25427;}
+a[href*="twitter.com"],a[href*="x.com"] 
+	{color: #1da1f2;}
+a[href^="https://duck.co"],a[href^="https://duckduckgo.co"]
+	{color: #e16f4f;}
+a[href*="facebook.com"],a[href*="facebook.com"]
+	{color: #47609a;}
+a[href*="//instagram"],a[href*="//facebook.com"]
+	{color: #725547;}
+a[href*="//facebook.com"],a[href*="//facebook.com"]
+	{color: #47609a;}
+a[href*="//pronouns.page/"],a[href*="//en.pronouns.page/"]
+	{color: #AD2474;}
+a[href^="https://google."],a[href^="https://www.google."]
+{
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(
+		90deg,
+		#4285f4,
+		#ea4335,
+		#fbbc05,
+		#4285f4,
+		#34a853,
+		#ea4335
+	);
+	-webkit-background-clip: text;
+}
+a[href*="://steampowered.com"], a[href*="://steamcommunity.com"] {
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(#2e4a5a, #1b2838);
+	-webkit-background-clip: text;
+}
+a[href*="://gamebanana.com"] {
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(#f3e463, #a7963c);
+	-webkit-background-clip: text;
+}
+a[href*="://microsoft.com"] {
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(
+		90deg,
+		#f35325,
+		#81bc06,
+		#05a6f0,
+		#ffba08
+	);
+	-webkit-background-clip: text;
+}
+
+a[href*="webtoons.com"] 
+	{color: #00d564;}
+a[href*="tapas.io"] 
+	{color: #f6b606;}
+a[href*="://comicfury.com"] 
+	{color: #79bd42;}
+a[href*="://girlme.thecomicseries.com"] 
+	{color: #ed4449;}
+a[href*="://mis.thecomicseries.com"] 
+	{color: #756e88;}
+a[href^="https://rain.thecomicseries.com"] {
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(
+		0deg,
+		#5BCEFA,
+		#F5A9B8,
+		#FFFFFF,
+		#F5A9B8,
+		#5BCEFA,
+		#FFFFFF
+	);
+	-webkit-background-clip: text;
+}
+a[href*="://rain.thecomicseries.com"]:hover,a[href*="://steampowered.com"]:hover,a[href*="://gamebanana.com"]:hover,a[href*="://steamcommunity.com"]:hover,a[href^="https://google."]:hover,a[href^="https://www.google."]:hover,a[href*="://microsoft.com"]:hover
+{
+	-webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+}
+
+/* End of URL Coloring */
