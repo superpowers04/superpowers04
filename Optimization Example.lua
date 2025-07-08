@@ -5,6 +5,9 @@
 	
 	I highly recommend looking at the Programming In Lua book, https://www.lua.org/pil/(https://www.lua.org/pil/contents.html is the online version)
 	It explains a lot of things about how lua works and you'll probably understand a lot of this document better
+	
+	GMod's own Wiki has a pretty good section on optimization - https://wiki.facepunch.com/gmod/optimizationTips
+
 ]]
 -- Starting out with how seemingly small optimizations can make a massive difference
 
@@ -146,4 +149,6 @@ end)
 
 -- Fun fact, metatables can also apply to the local environment and global environment. 
 --  So you could set the metatable of _ENV or _G to change how __index works and make it add to a different table or something
+
+
 

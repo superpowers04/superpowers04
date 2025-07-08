@@ -105,6 +105,8 @@ a[href*="://microsoft.com"] {
 	-webkit-background-clip: text;
 }
 
+
+
 a[href*="webtoons.com"] 
 	{color: #00d564;}
 a[href*="tapas.io"] 
@@ -115,7 +117,7 @@ a[href*="://girlme.thecomicseries.com"]
 	{color: #ed4449;}
 a[href*="://mis.thecomicseries.com"] 
 	{color: #756e88;}
-a[href^="https://rain.thecomicseries.com"] {
+a[href^="https?://rain.thecomicseries.com"] {
 	-webkit-text-fill-color: transparent;
 	background-image: linear-gradient(
 		0deg,

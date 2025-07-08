@@ -410,6 +410,17 @@ button:focus,
 	scale: 0.9;
 }
 
+.buttons__74017:hover{
+	transition-property: width;
+	transition-duration: 1s;
+	width:initial;
+
+}
+.buttons__74017{
+	transition-property: width;
+	transition-duration: 1s;
+	width:10%;
+}
 
 
 
