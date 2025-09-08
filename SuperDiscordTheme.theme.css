@@ -437,13 +437,13 @@ button:focus,
     --top-bar-size:2%;
 }
 
-/*.visual-refresh {
+.visual-refresh {
     --custom-app-top-bar-height: var(--top-bar-size);
-    grid-template-rows: [top] var(--top-bar-size) [titleBarEnd] min-content [noticeEnd] 1fr [end];
-}*/
-.bar_c38106{
-	display:none;
+    /*grid-template-rows: [top] var(--top-bar-size) [titleBarEnd] min-content [noticeEnd] 1fr [end];*/
 }
+/*.bar_c38106{
+	display:none;
+}*/
 .threadSuggestionBar__841c8:hover > :last-child {
 
     text-decoration: underline;
