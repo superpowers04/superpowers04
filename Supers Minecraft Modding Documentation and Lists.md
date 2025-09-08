@@ -1,6 +1,6 @@
 # Super's Minecraft list thing
 
-# Note this version is no longer maintained, please use [the wiki version](https://github.com/superpowers04/superpowers04/wiki/MC-Info)
+# Note this version is no longer maintained, please use [the wiki version](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)
 
 ***Note this doc is not affiliated, monitored, or otherwise endorsed by MinecraftHopper, Minecraft Community Support, Prism Launcher, Modrinth, Fabric, Forge, or anyone else. Go to superpowers04 for any questions, support or corrections related to it***
 

@@ -1,1 +1,1 @@
-Moved to [Supers Minecraft Modding Documentation and Lists.md](https://github.com/superpowers04/superpowers04/blob/main/Supers%20Minecraft%20Modding%20Documentation%20and%20Lists.md)
+Moved to [superpowers04/wiki/MC-Info](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)
