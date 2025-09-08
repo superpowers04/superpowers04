@@ -251,10 +251,10 @@ code{
 
 /*Remove call, invite to server, send a gift and nitro tab*/
 
-button[aria-label="Send a gift"], a[href="/shop"],a[href="/store"], #user-context-call,
+div[aria-label="Send a gift"], a[href="/shop"],a[href="/store"], #user-context-call,
 #user-context-call,#user-context-invite-to-server,
 div[aria-label="Start Video Call"],
-button[aria-label='Send a gift'],button[aria-label="Apps"]
+button[aria-label='Send a gift'],button[aria-label="Apps"],div[aria-label="Apps"],.channelAppLauncher_e6e74f
 #discord-nitro-tab>div>.giftCard_a45ed3,#discord-nitro-tab>div>.containerWithoutGlow_a61c56,#discord-nitro-tab>div>.tierCard_a45ed3{
     display: none;
 	height: 0;
@@ -437,9 +437,12 @@ button:focus,
     --top-bar-size:2%;
 }
 
-.visual-refresh {
+/*.visual-refresh {
     --custom-app-top-bar-height: var(--top-bar-size);
     grid-template-rows: [top] var(--top-bar-size) [titleBarEnd] min-content [noticeEnd] 1fr [end];
+}*/
+.bar_c38106{
+	display:none;
 }
 .threadSuggestionBar__841c8:hover > :last-child {
 
