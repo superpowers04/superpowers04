@@ -461,3 +461,8 @@ button:focus,
 .mentionButton__841c8:hover{
     text-decoration: underline;
 }
+
+.imageEnabled__57752 .image__57752 .rotationSupported__57752{
+	width: 100%;
+	height: 100%;
+}
