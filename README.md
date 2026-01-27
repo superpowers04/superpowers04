@@ -1,8 +1,10 @@
+<!-- Title: About superpowers04 -->
 # About me for Superpowers04
-[A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://github.com/superpowers04/superpowers04/blob/main/Super's%20Fabric%20Mod%20Recommendations.md)<br>
+[A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)<br>
 #### TL;DR: I am funni 20 year old transfem/translesbian/transbean who likes coding, drawing, video games and has ADHD/OCD(Actually tested) but apparently not autism
  * She/her
-
+Current representation of myself:
+![img](me.png)
 
 # Basic biography
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
