@@ -3,7 +3,9 @@
 [A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)<br>
 #### TL;DR: I am funni 20 year old transfem/translesbian/transbean who likes coding, drawing, video games and has ADHD/OCD(Actually tested) but apparently not autism
  * She/her
-Current representation of myself:
+
+
+Current <sub>inaccurate :c</sub> representation of myself:<br>
 ![img](me.png)
 
 # Basic biography
