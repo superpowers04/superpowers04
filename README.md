@@ -3,10 +3,16 @@
 [A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)<br>
 #### TL;DR: I am funni 20 year old transfem/translesbian/transbean who likes coding, drawing, video games and has ADHD/OCD(Actually tested) but apparently not autism
  * She/her
-
+<sub>I have partially migrated over to https://git.gay/superpowers04/ with all of my IMPORTANT repos already moved over.
+<br>Most of my older repos, non-important repos, github specific forks and backup of my current repos will be available at https://github.com/superpowers04
+<br>I have a codeberg but it's unmaintained since git.gay has more features... and is gay :3
+<br>A site is inevitable and WILL happen
+</sub>
 
 Current <sub>inaccurate :c</sub> representation of myself:<br>
 ![img](me.png)
+
+
 
 # Basic biography
 I am currently a Minecraft Community Support Helper that is probably inactive a lot more than I should be and I am an admin for the Psych Engine Discord
