@@ -159,8 +159,9 @@ code{
 
 :root, .theme-dark{
 
-	--header-secondary:#d7ccd4 !important;
-	--text-normal:#d4ccd4 !important;
+	--header-primary:#d7bbd4 !important;
+	--header-secondary:#d7bbd4 !important;
+	--text-normal:#d4cad4 !important;
 	--text-muted:#b9abb6 !important;
 	--text-link:#7D4A8E !important;
 	--text-deleted: #f40 !important;
@@ -210,7 +211,7 @@ code{
 	--background-help-info:rgba(0,103,224,0.1) !important;
 }
 
-:root{
+:root, .theme-dark{
     --background-base-lowest:var(--background-floating) !important;
     --background-base:var(--background-primary) !important;
     --background-surface-highest:var(--background-primary) !important;
@@ -278,12 +279,15 @@ button[aria-label='Send a gift'],button[aria-label="Apps"],div[aria-label="Apps"
 	0% {
 		color: #ffffff;
 	}
-	50% {
+	100% {
 		color: #ff5566;
 	}
-	100%{
-		color: #ffffff;
-	}
+}
+.highlighted__20a53 > *{
+	animation-name: messageRecFlash !important;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
 
 /*Remove call, invite to server, send a gift and nitro tab*/
@@ -296,20 +300,7 @@ button[aria-checked="true"]
 button[aria-checked="false"] 
 	{color: #219d86;}
 
-.highlighted_ed15e7 > *{
-	animation-name: messageRecFlash !important;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
 /*Rotating User Settings*/
-button[aria-label="User Settings"]:hover > * {
-	animation-name: settingsrotate;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-/*Animation*/
 @keyframes settingsrotate {
 	0% {
 		transform: rotate(0deg);
@@ -318,27 +309,15 @@ button[aria-label="User Settings"]:hover > * {
 		transform: rotate(360deg);
 	}
 }
+button[aria-label="User Settings"]:hover > * {
+	animation-name: settingsrotate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
 button[aria-label="User Settings"] > .content__10a0c {
 	transition: 1s;
-}
-/* Message Appearing */
-@keyframes messageappear {
-	0% {
-		opacity: 0%;
-		scale: 0;
-	}
-	10% {
-		opacity: 0%;
-		scale: 0;
-	}
-	80% {
-		opacity: 100%;
-		scale: 1.05;
-	}
-	100% {
-		opacity: 100%;
-		scale: 1;
-	}
 }
 @keyframes click {
 	0% {
@@ -354,62 +333,52 @@ button[aria-label="User Settings"] > .content__10a0c {
 
 
 
+/* Message Appearing */
+@keyframes messageappear {
+	0% {
+		opacity: 0%;
+		scale: 0;
+	}
+	70% {
+		opacity: 100%;
+		scale: 1.2;
+
+	}
+	85% {
+		scale: 0.97;
+	}
+	90% {
+		scale: 1.005;
+	}
+	100% {
+		scale: 1;
+	}
+}
 .message_faa96b, .cozy_fc8177, .group__3d4a0, .wrapper__2f4f7, .cozy_fc8177, .zalgo_c19a55
 ,.member_c8ffbb,.thin_d125d2,.fade_c8b5c7, .typing_faa96b{
 	animation-name: messageappear;
 	animation-duration: 0.5s;
+	animation-timing-function: cubic-bezier;
 }
 
-/* Hover resize */
-a,
-button,
-div{
-	transition-property: scale;
-	transition-duration: 100ms;
+@keyframes sending {
+	0% {
+		opacity: 25%;
+	}
+	100% {
+		opacity: 75%;
+	}
 }
-button:hover,
-.closeButton_b83a17:hover,
-.image__9adaf:hover,
-.button__0c41a:hover > .content__10a0c,
-.emojiItem_fc7141:hover,
-.emoji_e85ed6:hover,
-.attachButton__74017:hover,
-.item_b3f026:hover,
-.ui-tab-bar-item:hover,
-.avatar_b8dbac:hover,
-.blob_fc8177:hover,
-.avatar_b8dbac:hover,
-.mask_db811b:hover,
-.popout_cb9592:hover,
-.profile_d878e7:hover{
-	transition-property: scale;
-	transition-duration: 100ms;
-	scale: 1.05;
+.isSending_c19a55{
+	animation-name: sending;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-size: 0.1em;
 }
-/* Click resize? */
-a:focus,
-div:focus
-button:focus,
-.closeButton_b83a17:focus,
-.image__9adaf:focus,
-.button__0c41a:focus > .content__10a0c,
-.emojiItem_fc7141:focus,
-.emoji_e85ed6:focus,
-.attachButton__74017:focus,
-.item_b3f026:focus,
-.ui-tab-bar-item:focus,
-.avatar_b8dbac:focus,
-.blob_fc8177:focus,
-.avatar_b8dbac:focus,
-.mask_db811b:focus,
-.popout_cb9592:focus,
-.profile_d878e7:focus
-{
-	transition-property: scale;
-	transition-duration: 100ms;
-	scale: 0.9;
+.container_a2f514 .fixClipping_efbae7{
+	opacity:0.4;
 }
-
 .buttons__74017:hover{
 	transition-property: width;
 	transition-duration: 1s;
@@ -460,9 +429,4 @@ button:focus,
 
 .mentionButton__841c8:hover{
     text-decoration: underline;
-}
-
-.imageEnabled__57752{
-	width: 100% !important;
-	height: 100% !important;
 }
