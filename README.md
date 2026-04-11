@@ -1,4 +1,10 @@
 <!-- Title: About superpowers04 -->
+# This readme is outdated. I now have a website available at [superpowers04.neocities.org](https://superpowers04.neocities.org) and [superpowers04.pages.gay](https://superpowers04.pages.gay)
+
+
+
+
+
 # About me for Superpowers04
 [A list of recommendations, warnings and a general resource/doc I made for modding Minecraft](https://git.gay/superpowers04/superpowers04/wiki/MC-Info)<br>
 #### TL;DR: I am funni 20 year old transfem/translesbian/transbean who likes coding, drawing, video games and has ADHD/OCD(Actually tested) but apparently not autism
